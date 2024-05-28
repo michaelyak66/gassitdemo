@@ -46,6 +46,15 @@
 	<link rel="stylesheet" href="css/hexagons.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+	<style>
+		#nav-menu-container .nav-menu li a:hover {
+			color: rgb(0, 106, 255);
+			/* Hover color */
+		}
+		p{
+			color: black;
+		}
+	</style>
 </head>
 
 <body>
@@ -54,25 +63,32 @@
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<!-- <a href="index.html"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="index.html"><img width="70px" height="40px"
+							src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png" alt="" title="" /></a>
+
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li class="menu-has-children"><a href="">Pages</a>
+						<li class="menu-active"><a href="about.html">Who we are</a></li>
+						<!-- <li><a href="pricing.html">Pricing</a></li> -->
+						<li class="menu-has-children"><a href="">Who we serve</a>
 							<ul>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a href="gas-plant.html">Gas Plant</a></li>
+								<li><a href="distributors.html">Distributors</a></li>
+								<li><a href="end-users.html">Consumers</a></li>
+
 							</ul>
+
 						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
+						<!-- <li class="menu-has-children"><a href="">Blog</a>
 							<ul>
 								<li><a href="blog-home.html">Blog Home</a></li>
 								<li><a href="blog-single.html">Blog Single</a></li>
 							</ul>
-						</li>
-						<li class="menu-active"><a href="contact.html">Contact</a></li>
+						</li> -->
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -176,63 +192,38 @@
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-						 method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-							 required="" type="email">
-							<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant.html">Gas Plant</a></li>
+						<li><a href="distributors.html">Distributors</a></li>
+						<li><a href="end-users.html">Consumers</a></li>
+					</ul>
 				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions.html">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+
+
+
 			</div>
 			<div class="footer-bottom row align-items-center">
-				<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+				<p class="footer-text m-0 col-lg-6 col-md-12">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
+				</p>
 				<div class="col-lg-6 col-md-6 social-link">
 					<div class="download-button d-flex flex-row justify-content-end">
 						<div class="buttons gray flex-row d-flex">

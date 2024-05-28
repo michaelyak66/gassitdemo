@@ -54,7 +54,14 @@
 		p{
 			color: black;
 		}
+
     </style>
+	<style>
+		#nav-menu-container .nav-menu li a:hover {
+			color: rgb(0, 106, 255);
+			/* Hover color */
+		}
+	</style>
 </head>
 
 <body>
@@ -63,24 +70,31 @@
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<!-- <a href="index.html"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="index.html"><img width="70px" height="40px"
+							src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png" alt="" title="" /></a>
+
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="menu-active"><a href="about.html">Who We are</a></li>
+						<li class="menu-active"><a href="about.html">Who we are</a></li>
 						<!-- <li><a href="pricing.html">Pricing</a></li> -->
 						<li class="menu-has-children"><a href="">Who we serve</a>
 							<ul>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a href="gas-plant.html">Gas Plant</a></li>
+								<li><a href="distributors.html">Distributors</a></li>
+								<li><a href="end-users.html">Consumers</a></li>
+
 							</ul>
+
 						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
+						<!-- <li class="menu-has-children"><a href="">Blog</a>
 							<ul>
 								<li><a href="blog-home.html">Blog Home</a></li>
 								<li><a href="blog-single.html">Blog Single</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -113,8 +127,47 @@
 		</div>
 	</section>
 
+	 <center>
+<div style="font-size: 14px;" class="container section-gap-top fact-area">  
+	<div class="section-title text-center">
+		<h2>Sales tools that stop You From Losing Profit</h2>
+	</div>  
+	<div class="row">
+	  <div class="col-sm-3">
+		<div style="padding: 30px;">
+		<img  style="max-width: 90px; padding-bottom: 30px;" src="data:image/png;base64,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">
+			<h4 >Periodic reports</h4>
+			<p>Enjoy reports from any period you choose either daily, weekly or monthly. </p> 
+		</div>
+	  </div>
+	  <div class="col-sm-3"> 
+		<div style="padding: 30px;">
+			<img  style="max-width: 90px; padding-bottom: 30px;" src="data:image/png;base64,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">
+					<h4>Cash handling</h4>
+					<p>records customer’s change in customer profiles for later use. </p> 
+				
+		</div>
+	  </div>
+	  <div class="col-sm-3"> 
+		<div style="padding: 30px;">
+			<img style=" max-width: 85px; padding-bottom: 30px;"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACe0lEQVR4nO2czW7UMBCAI0F5Ia5IvdRTEJRbHqxnbrxIX4AjF2K4UJCoVHGtzSUorQCpQJ2sk3jG/j7J0mp/HHu+TGbX3t2uAwAAAAD4zfHF+NgNNyJDeCND/CZDvJpuT/dNj/15JmxGP46PTj79eCY+nt9K8HH8V3ND+O6G8NYN4ax/Pz5BSQEJghy9EgQ5K9cEH67nBTlc/6obOa+l5mRkgkvUhy36rJo9A9YjR29gegVjKIrmAPSKx9a1PtHe4JibmVBvdS65A3/6bjzqlNNrl9OCBPVyWpagTs6JD69vV1BnHLDVT73Hh6wu3K1Kv1p8MPHxKxI2k/OlW0qLl6M9L2uLO/1bRluXo9UzZ20hq42wUQQhukCIMhCiDIQoAyHKQIgyENK6kNMP4eW0JDBv7aue5ny8dB/DC3VCpoGVDo6UkjLEz+qElA6KFG4I8eUlmBLSVY4gRBcIUQZClIEQZSBEGQhRBkKUgRBlIEQZCFEGQpSBEGUgRBnNCTndaAdy7g7f2vM1L8RtuAM5Z4dv7fmaFyKFN5TWni9CPEKKnoHa+6suQzrj/SHkHggxHsAUZEgmCDEewBRkSCYIMR7AFGRIJggxHsAUZEgmCDEewBRkSCYIMR7AFGRIJggxHsBmMsTKr3VdYu+9GiGWfq3rHth7r0ZI6SDLwrZ3fFbrACGVCFk8MCX9VZshiwd2D4T8B4Q8DBlyIFyyMhFqyL5nVgqEZAYGIZF3WUughmQi1JB9z6wUCMkMDEIiNWQJ1JBMhBqy75mVAiGZgUFIpIZUWUNocZedSIR4I0IsfRlBjLWD/rhg+goMUuImMsTfPF8sBAAAAAC6w/kJ2J6VWGsi//IAAAAASUVORK5CYII=">
+			<h4>Inventory</h4>
+			<p>Forget keeping an eye on low stock, OS retail adjusts quantity levels with each sale and informs you when stock is low. </p>
+		</div>
+	  </div>
+	  <div class="col-sm-3">
+		<div style="padding: 30px;">
+			<img style=" max-width: 90px; padding-bottom: 30px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHQ0lEQVR4nO2da6hUVRTHtz2k9wNL6EWZWmT2lMwPxVB39p5RQ4k0LHp+CSoo6ItIHyQijaDM6kMQ9NAUoyJSkjQriyg1QSu7987e52qaZU/Ix/WsNZY71pn7mPO4zsydM3PPnFk/OF+GffacWf+z19577bX3CMEwDMMwDMMwDMMwDMMwDMMwDNPGTNlqT5Qa5kgDb0uDXcrAIWXQ8oU12AAOku08G2qYQzYdlhg5A7OVRs3Gx3hfQI2abFu1EAutPU4aXMxCYOM8gYajSuMisnVFQVgMbJ5L1rioCjcFRwNqutLgElUoTpXb7alVNzXGg2xGtlMGXyRbBltK1sAsEQV1NqE+Q+Nu6eDkyBuYmsn24FVS455gnxLZ0dMIINQyWIzGiGIAym1Ntg8VpGGZr5DBJfE/DkMog0sDQ+PlIog02F1eKN9TvCFUiIkFWSjeGHj5u0OFaAJTXiizw54Wz9czQci2wcljqFBwSBYqwMRKRXuzIG0gSLYAVygDTyqNG5TBTmngAI0wpMFflcF1SsP8XJd7SbX15XXvhdLAE0rjWmVwb2lcD4e8WJHGz5SGhfkevFq0AE0VJOu4HUrD1mpmq1LDv1LDqlsLvRcMVZ90Do6VGt5SBopVhiZ+yBVgpmh3QTLd9hxlcPUw4zv/KKf4kLB2VHmdOYP3KgN/DadOaXB9rvPQeaIdBVHGnRAcOg/vgle9oJu1o5TB5+qvD/fmDF4v2kmQrAMTpYG/o9yR0vihdPB+6k9mddnTM7vsSTN2Hr64b51lhTSA4TcbVpAwEWIdUQbflQ7Ok93uuGl77MkUK8p1weVK493S4HtRbo36rqT1LQ0ThIwsDf4YdkH4KYUJKt1PnbrXIVd+09eR8JXr88RZG3H/zo5OO0akXRCpYVmE714y19rjq62DykqDTw3dv+Azwb7lmJTc3dPByLXU+IFIsyCl6CX8F/jRLw/3ISWF+cOd/Zt11BdaaMvqYkakVRBpcE3AV28e9prxYEtZX9YHfT13hx1dT33KwMZAP/SFSKMg5I+9Ttt3n3tLvQ+a7eo9n4bANIHMa5hUb33KKU4Jua5ud1y99SZOEBo5Bd68TXE9rDTuozTDj6++wVbnCVKAx0TqBAmtn8CCuB52obXH1eP6ogX2DTrWiBQK8mV5+VyheLNIKKqA1/gHHvBdCgVBp7x8XrvjRULJlEI65e71zzS2kD/8gthzRUKZQgkcfkGK6RNEo2mVFiKdg2P9cxv8PYWCwJbAhGuaSCh5DZMqrmGnoA9533cPhc4TinRwXkCQT9LYhyzwuwF4TSQUZfCFgCCLUyeI0q70DyVxXy0BxWYiAyNCpeGO1AnirUUYOBB36CRuKL/M3zoAMrvsWSJtgpTugeWB+1aLhKEMrExiCL4hgkjtqoArONqh8TqRELIOTOxbZUyUu2qYIN59Gr4N/OCvalpMaiBK40eB1mGS0s81TBDpwO3Be5UuPixGmJyXreJ/LopQi4TQMEG8e0uJcOWtxKWAnhgh8todLw3s97cO2JKU1tFwQTp64LLgngdlsGckcqI6Ou0YypL0PwscGckXpOmCEFkNj4ddF3w/c7c9WzQxq1wa2Bx6jhgXu1pGEKKUFxUyxqZmbG2Yu8OOVho/Dr8UuCFJrqqpguS1PUMa2B4hysZGtpQM7beIyMWiJOwk5WI1XRCC+g1pcFfIOF643p1Q7w+J+r6oxG7KsK8lsz61ggymluLPEaLsoywQERPSwcm0UzjCTf2WM3ilSDBNFYToKLiXSo0/hUWBXlnAB+qtP2fwznAsrdQyKI9YJJymCzLovqJGPZ4wy277xZ5Sa52Zz+0J0uCzoQMO+kZ1SXZTIy7IQFRYwztRoigD26pJoO6HsuaVgW8iBTa4hhK/RYswYoIMJD9rmB/1Vnvb3DTeU6mKnIHZUVse+q6lSRzaJleQsrjX0EaFN6LOUqH9JErjK9GtAvZnC3iXaEESIUjpew5fFEyyK3M73bKA1/r2ehjYFimgN9SNfxjddoL0d8y0fyOcrI2lM1Z08RFl8L7gYQZlZ009X09WPJF1YAYNzb3Lgelxf95SgvST7SneRDubhugXbMS1l9by4/ju8nkSndAT9+ctKcjgljh4vZIYUsOqOMMvLEh1E739EUL0Ko0PxiXEgCAOTKc3unR+lZuP+/OWbSERu3m3D/YXWEja7tm4aAlBBoa5BlbSJptsjz1TpJSWEaR/ww6NxESKaSlB2oGK9g5GTvkAs8ZBC3nBiEOoUOickkJxagOfqa3J6uK0YISi4iZOOmd2RJ62DZAaX6p8CGbEMbHVnFXC1AalI1V1TOxQBymzKPFBc6qqD1Ie6qjxPjWXkt/jjr52yGZkO3JToWTCYx013g8fxo/JOYy/f1JGBSPXrPmyTf+7in6oKfEfumAjWoWu6KZq+Muj8IIRX/bYNvBs1klD27r+8ohhGIZhGIZhGIZhGIZhGIZhGEakg/8BX0V+nhchQK4AAAAASUVORK5CYII=">
+			<h4>Loyalty points</h4>
+			<p>Dazzle customers with loyalty points automatically issued with every purchase.  </p>
+		</div>
+	  </div>
+	</div>
+  </div><br>
+</center>
+
 	<!-- Start fact Area -->
-	<section class="fact-area section-gap-top">
+	<!-- <section class="fact-area section-gap-top">
 		<div class="container">
             <div class="section-title text-center">
                 <h2>Sales tools that stop You From Losing Profit</h2>
@@ -122,38 +175,34 @@
 			<div class="fact-box">
 				<div class="row align-items-center">
 					<div style="padding: 30px;" class="col-sm-3 single-fact">
-						<h4>Periodic reports</h4>
-                        <br>
-						<p>Enjoy reports from any period you choose either daily, weekly or monthly. </p><br>
+						<img style="max-width: 120px; " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEX0lEQVR4nO1bW4scVRBuRBHxgogPGgTv8QJGVNQIyiLTVd1EUfHJh6gPmvgkeEOJLCQieP0HPvks+OAFBO+KJCAr5CE421U7CYk3Ei8bdTdT1V5aauLMnOnMbnZmenp6e/qDwwzTZ/qc7zt1TlWfU+15FSpUGAQhJedAJLNIMocsS8ia5FdkCVjrwPo+RPFjWw4sXeDlCYjiW4H1x3xJr1JImkD6Ou5Lzhs7eZyXq5Hk6MRJ9ylAeqhGesNYBQDSTzsNsvwKpI8E3y5dONZG222z7uqSlTdwId6OLHt6RZBl5OadY+mAH8k1zjz8K2zEN3s5okcA1l3t35HlPiQ97PTtl5Cal2feAWwp3lH7XS9nrCRA69p881IkPeisC19l34FIZrsN6EuZNzBi+2FDNwGLtOsELPfmNgJ5AFm3Oe2/168OsL7siPRJqQTwU2sQRvEt6ToWE7Sutetk6RphwgIYbFSdFf83n/VRv768oaefJLs70yCSu0olQFCXq5BkcYD4YFupBDCY6SPrD2sLjuRZr2wCGO6pJ2cDyw4g+RpZ/uxLnnXBX5ArvTIKMBFAJYBWFoDVFNBqDcBqEdTKC8CE3eDOJDklYH0QSZ5bS7G69p/SuEFkfWjQLTMToTQCBDb6g+4ZjtpnKJAAZs5AuhVYX0kXZH3V9itLLcBqaG2Rl90CVgKyvtZLXH6eGgGQ9cUe8iRvAusLUyEAsjydMvm3Zj5LTs20z1BQAZDkidRcf9vIZ97nwHE9tgJ7BQBy8/Fes9d3bppLTmtfz1SAnW3XQ7p15Kgqq4Makn+dQfkgpOT0wlrtlv3HLg6i+A47xRn1XrCgDwPJP87If7z5UHLGCfWKIABy8wpk+SK1Wbk7JLl2mPvBgj4AJH93icmXsDc5s5DT1m/odcBypG94SrI46AFrEMn93YOPlp/fYxukhZy24fGzui55kmPI8vnxI+zBRUCSu4FFnf/OzRxIzvWKiDBFvvU90uvtmn2mhDmpCEBNdA8+gWVvLhkhw5LvDUHliE2F9DkfkP7kiHDUUm/63c9vxLe7eUjAOp97XlCW5AcRIeD4NmD5w1ntKX0WWGizDxu6aaBFkmTRp3izQ/53Z+FshLR8kVcW8iuJYAsdkHyDLLEz8geDevMSb72YfbhG8mtyl6zfWyzhlZV8G5bYBKwftsNbi/QsE2RQs681ZCOy7rcpk+nh6MnI2/dhybuYmU/OD1hvHNbN+SzPOwOywxsHalHzsnGQzwK5xP/YswFRHPK5CVAzCyCNrBSJfGGeACeJSgDO2ALClnuSp7LYyFh3AoSuqyMlb5oECE8IcrTuTZMAaKt8QV3darBE6o4AkcwOfSMg5fVG3mDvErUFsFTakXw9kDxpn946Qet9JmfD1FJrvWmAX1/e8P85QSePGFg/GnvDte6TV1KoQrJofRu7AMjyzMTJpgqwfpfb+0y1hmy0pORJk7aEaUuctsffmX3JWbmQr1DBKw3+AwGBru25VlCMAAAAAElFTkSuQmCC">
+						<h4 >Periodic reports</h4>
+						<p>Enjoy reports from any period you choose either daily, weekly or monthly. </p> 
 					</div>
 
                     <div style="padding: 30px;" class="col-sm-3 single-fact">
-						<h4>Cash handling</h4>
-                        <br>
-						<p>records customer’s change in customer profiles for later use. </p> <br>  <br>    
+						<img style=" max-width: 120px; " src="data:image/png;base64,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">
+						
+								<h4>Cash handling</h4>
+								<p>records customer’s change in customer profiles for later use. </p> 
+							
 					</div>
 
-                    <div style="padding: 30px;" class="col-sm-3 single-fact">
+                    <div style="padding: 30px; margin-bottom: 10px;" class="col-sm-3 single-fact">
+						<img style=" max-width: 70px; "  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACe0lEQVR4nO2czW7UMBCAI0F5Ia5IvdRTEJRbHqxnbrxIX4AjF2K4UJCoVHGtzSUorQCpQJ2sk3jG/j7J0mp/HHu+TGbX3t2uAwAAAAD4zfHF+NgNNyJDeCND/CZDvJpuT/dNj/15JmxGP46PTj79eCY+nt9K8HH8V3ND+O6G8NYN4ax/Pz5BSQEJghy9EgQ5K9cEH67nBTlc/6obOa+l5mRkgkvUhy36rJo9A9YjR29gegVjKIrmAPSKx9a1PtHe4JibmVBvdS65A3/6bjzqlNNrl9OCBPVyWpagTs6JD69vV1BnHLDVT73Hh6wu3K1Kv1p8MPHxKxI2k/OlW0qLl6M9L2uLO/1bRluXo9UzZ20hq42wUQQhukCIMhCiDIQoAyHKQIgyENK6kNMP4eW0JDBv7aue5ny8dB/DC3VCpoGVDo6UkjLEz+qElA6KFG4I8eUlmBLSVY4gRBcIUQZClIEQZSBEGQhRBkKUgRBlIEQZCFEGQpSBEGUgRBnNCTndaAdy7g7f2vM1L8RtuAM5Z4dv7fmaFyKFN5TWni9CPEKKnoHa+6suQzrj/SHkHggxHsAUZEgmCDEewBRkSCYIMR7AFGRIJggxHsAUZEgmCDEewBRkSCYIMR7AFGRIJggxHsBmMsTKr3VdYu+9GiGWfq3rHth7r0ZI6SDLwrZ3fFbrACGVCFk8MCX9VZshiwd2D4T8B4Q8DBlyIFyyMhFqyL5nVgqEZAYGIZF3WUughmQi1JB9z6wUCMkMDEIiNWQJ1JBMhBqy75mVAiGZgUFIpIZUWUNocZedSIR4I0IsfRlBjLWD/rhg+goMUuImMsTfPF8sBAAAAAC6w/kJ2J6VWGsi//IAAAAASUVORK5CYII=">
 						<h4>Inventory</h4>
-                        <br>
 						<p>Forget keeping an eye on low stock, OS retail adjusts quantity levels with each sale and informs you when stock is low. </p>
 					</div>
 
-                    <!-- <div style="padding: 30px;" class="col-sm-3 single-fact">
-						<h4>Customer profiles</h4>
-                        <br>
-						<p>Save customer information like phone numbers. know who’s coming for the first time and who’s returning.  </p><br>
-					</div> -->
-
                     <div style="padding: 30px;" class="col-sm-3 single-fact">
+						<img style=" max-width: 70px; " src="data:image/png;base64,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">
 						<h4>Loyalty points</h4>
-                        <br>
-						<p>Dazzle customers with loyalty points automatically issued with every purchase.  </p><br>
+						<p>Dazzle customers with loyalty points automatically issued with every purchase.  </p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End fact Area -->
 
     <div class="section-top-border">
@@ -246,8 +295,9 @@
 
 
 	<!-- Start Testimonials Area -->
-	<section class="testimonials-area about-page section-gap-bottom">
+	<section class="testimonials-area section-gap-top">
 		<div class="container">
+			<h1 style="text-align: center; padding: 20px;">What Users Are Saying</h1>
 			<div class="testi-slider owl-carousel" data-slider-id="1">
 				<div class="item">
 					<div class="testi-item">
@@ -262,16 +312,19 @@
 						</ul>
 						<div class="wow fadeIn" data-wow-duration="1s">
 							<p>
-								Hi, I’m  Dami CEO of the Selai Gas plant, I struggled with precise information on how much sales my Gas plant made.
-                                Since using the application my employees report 3x faster reconciliation of accounts and complaints like managing change have been brought down to 90% thanks to the OS retail app. 
+								“Hi, I’m Dami CEO of the Selai Gas plant, I struggled with precise information on how
+								much sales my Gas plant made.Since using the application my employees report 3x faster
+								reconciliation of accounts and complaints like managing change have been brought down to
+								90% thanks to the OS retail app.“
 							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="item">
 					<div class="testi-item">
 						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
+						<h4>Nancy</h4>
 						<ul class="list">
 							<li><a href="#"><i class="fa fa-star"></i></a></li>
 							<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -281,9 +334,7 @@
 						</ul>
 						<div class="wow fadeIn" data-wow-duration="1s">
 							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-								you travel
-								across her face <br> and She is the host to your journey.
+								"Our previous sales tool involved lots of processes. With this tool we do less work."
 							</p>
 						</div>
 					</div>
@@ -291,7 +342,7 @@
 				<div class="item">
 					<div class="testi-item">
 						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
+						<h4>Isaac</h4>
 						<ul class="list">
 							<li><a href="#"><i class="fa fa-star"></i></a></li>
 							<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -301,36 +352,17 @@
 						</ul>
 						<div class="wow fadeIn" data-wow-duration="1s">
 							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-								you travel
-								across her face <br> and She is the host to your journey.
+								"Personally I like it.
+								It helps track our records especially accessories. There's a whole lot of changes. I can
+								now monitor the sales even when am not around."
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-								you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
+
 			</div>
 			<div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-				<div class="owl-thumb-item">
+				<!-- <div class="owl-thumb-item">
 					<div>
 						<img class="img-fluid" src="img/testimonial/t1.jpg" alt="">
 					</div>
@@ -341,8 +373,8 @@
 						<img class="img-fluid" src="img/testimonial/t2.jpg" alt="">
 					</div>
 					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
+				</div> -->
+				<!-- <div class="owl-thumb-item">
 					<div>
 						<img class="img-fluid" src="img/testimonial/t3.jpg" alt="">
 					</div>
@@ -353,74 +385,49 @@
 						<img class="img-fluid" src="img/testimonial/t4.jpg" alt="">
 					</div>
 					<div class="overlay overlay-grad"></div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
+	<br><br>
 	<!-- End Testimonials Area -->
 
 	<!-- Start Footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-						 method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-							 required="" type="email">
-							<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant.html">Gas Plant</a></li>
+						<li><a href="distributors.html">Distributors</a></li>
+						<li><a href="end-users.html">Consumers</a></li>
+					</ul>
 				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions.html">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+
+
+
 			</div>
 			<div class="footer-bottom row align-items-center">
-				<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				<p class="footer-text m-0 col-lg-6 col-md-12">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
+				</p>
 				<div class="col-lg-6 col-md-6 social-link">
 					<div class="download-button d-flex flex-row justify-content-end">
 						<div class="buttons gray flex-row d-flex">

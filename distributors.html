@@ -9,7 +9,7 @@
 		content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
 	<meta name="keywords" content="Gas, Gas plant, Cooking Gas, Gas Distributors, Gas Suppliers">
 	<meta name="author" content="Gassit">
-	<meta name="publisher" content="Oyasync">
+	<meta name="publisher" content="Gassit">
 	<meta name="robots" content="index, follow">
 
 	<title>Gassit</title>
@@ -52,6 +52,15 @@
 			width: 100%;
 		}
 	</style>
+	<style>
+		#nav-menu-container .nav-menu li a:hover {
+			color: rgb(0, 106, 255);
+			/* Hover color */
+		}
+		p{
+			color: black;
+		}
+	</style>
 </head>
 
 <body>
@@ -60,24 +69,31 @@
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<!-- <a href="index.html"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="index.html"><img width="70px" height="40px"
+							src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png" alt="" title="" /></a>
+
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="menu-active"><a href="about.html">About</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li class="menu-has-children"><a href="">Pages</a>
+						<li class="menu-active"><a href="about.html">Who we are</a></li>
+						<!-- <li><a href="pricing.html">Pricing</a></li> -->
+						<li class="menu-has-children"><a href="">Who we serve</a>
 							<ul>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a href="gas-plant.html">Gas Plant</a></li>
+								<li><a href="distributors.html">Distributors</a></li>
+								<li><a href="end-users.html">Consumers</a></li>
+
 							</ul>
+
 						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
+						<!-- <li class="menu-has-children"><a href="">Blog</a>
 							<ul>
 								<li><a href="blog-home.html">Blog Home</a></li>
 								<li><a href="blog-single.html">Blog Single</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -96,7 +112,7 @@
 						</h1><br>
 						<p>
 							Enjoy access to credit to facilitate gas purchases in less than 5 minutes. Simply raise an
-							invoice for Gas when you need it and let Oyasync Credit do the rest!
+							invoice for Gas when you need it and let Gassit Credit do the rest!
 						</p>
 						<!-- <a class="primary-btn text-uppercase" href="#">Get Details</a> -->
 					</div>
@@ -114,23 +130,26 @@
 	<section class="fact-area section-gap-top">
 		<div class="container">
 			<div class="section-title text-center">
-				<h2>Why Distributors Love Oyasync Credit</h2>
+				<h2>Why Distributors Love Gassit Credit</h2>
 			</div>
 			<div class="fact-box">
 				<div class="row align-items-center">
 					<div style="padding: 50px;" class="col-sm-4 single-fact">
+						<img style="padding: 10px;" src="data:image/png;base64,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">
 						<h4>Credit Access</h4>
 						<br>
 						<p>Raise invoices in the app to have payment made to suppliers on your behalf.</p>
 					</div>
 
 					<div style="padding: 50px;" class="col-sm-4 single-fact">
+						<img style="padding: 10px;" src="data:image/png;base64,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">
 						<h4>Low interest</h4>
 						<br>
 						<p> Low-interest rates guarantee profit as high as possible. </p>
 					</div>
 
-					<div style="padding: 50px;" class="col-sm-4 single-fact">
+					<div style="padding: 10px;" style="padding: 50px;" class="col-sm-4 single-fact">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAOUElEQVR4nO1dCbAcRRmeKF54HyCieJb3AYoKivKsZHt2DSkolIiFVnEooIBVYCAxggQ5NIIlcihahaUoh6AoRBS8AOUQixAQAsl07yMEEjkSwvGSt39PIGN9PROz80/P7szuzL59u/tVTdWrtzPdPfN3//3f7TgFYFEQPKci/T0rir4plL5SSFouJG1wFfm48Lf5n9K/FYoWCs/fA88U0fcITajJTW8QSn9XKP2Qq3SQ5zLPSP2dmd6m148+apeYdV/waqHox0KRzkuIJGGIXEU/cpcHr+p2XEMJV+kDXUXruiVE8qJ1VaU/N9XvN20wdkOwHVZF6geV9KRQdHFF6S/Xxv2P1GSww+5Lg+fhwt/4H34Tii4Rip5Kb0efj76m+n37Gns+GLxIKP2HlL1ghfD0IbgnT3uu1IcKpVemEGZJnvaGcGVYiCFp0pV0bDezOVp1XzdtJVfK1aOVYoFQdIFlBq+p1P0POwUB7MxVem1i9Ul9XlF9DNAGnth8l1VWbNq53bNVRfsJRY+5Uj9aUbRvu/vRpqtoWZIodEBhLzTdRVuLNLUmCzEANuPXZHmmJoMdXKklY12P7rM6eKUz7EhIVJIm87ApPtMz91vX7+N7ipD6XKeHgE4kpP4ShItQ8KCNuCIhZAl+6+kkCTVwKGwxghybp41OCQK4ik5kfTeyrsxuACHCVTTPlfREW71J0hMQSHoieMAcwkXbvB13QxBxV/DixCYv9Rm5XyRvn1L/KbdCK/Uf8WxpA4PRj9umoGfkbacbggDC849kL766LIMk2nWlvq5jK4PU15VmLIXVlmvgnShp3RJkztpge6Ho6eY2IB7nbSfbWGme5SM/gv9XPHo3xoILf7uKjoegYZEGjytrM18YZ1d0cSftdEsQQEj6NZscC5yCMbY8eIlQ9DgT7W9rZeyMjKv/Zs+sL4V1wZ/R3BHsT1NFELfuH8Ha+Y1TMBKsUdH62as27tTuuep9G1+He9n4Di96fJiVy4tgE4WsEM/fg62QuztpJ88EdCUtyvHsKWVPGIcv37GVwWvytlGTwcsKIUh9Ykc2e9d10k7LPpReFevD07tmfXaW1B9k73l/GQSJOZ3mLg+en4cQwqOTkjy5M4LUZPACtp+RUzCEpE3NfWDzzimeN0+YjX1BkFaEiCSWRzsZS21EkHwsqy0hwln9uKjT/tOFZQlP79ZfLItt6q7nf9R2X9WjfdoSwqOTQLQCdaK7nYKBSJj4uPUpOZ79dg829Wxib1qkSRGE6KXYm+yD1kOkbfcc7rFMyMN7oRheYr+PmVcKJMRWCEmXsxUyhIohk/0RkGAznYg6fRr2JRCmaEJsk2BoIrZaC/RSNsO4kZOCyCPCoxOqSr8XY8Fl/vboBJvpJK81vCvjIgISnB6jKv2vTCfjohMEM5yygIhCttGt7GXAgcCMVPq/sTFIfXrZfcKUnpcYQulrSjW/Awjv5A4qLGunRxCSvjVVDqooCiabg0rScT2bqCa8Mz6AybLM382ojOv3W8KCznF6CLhnwaYRigTnXLiX0YSJQZP6KvzWcz9/SpDD2jJnak0GOwipVRlBDvuuCF5qBBGlT8OHhk4Tvh8i9I0/YwP+JyRdBIcc3t/pNyDWNrlcaRk+XDnEoDt4f1WPPtNpm5Gt6UBX6t+B7eXbH8iHL6g2rj/g9BMQa2uRKiSiQ4pkU4mVocz1w7xtQUQHEaHDcMNhJ5eQ9CzYd2U8eLnTDwgjMfQSy6Y2ieiQbiQMI015dJItlFRIfdXcIHhuViMkgvEwo7nbt7BLalmT9B6nHxAFR1+dMti18LrlMVvjXugZXLR1m4jRzo+PqPpQOaVfZJKKwmvcxJtJfWhl3P+EqyZ3QT/QQ2aOT7y2ohpVIfX3UxOQJD0Bg6LTDzAiodTnpS5tRU8bH3jdPwLaPvYEmO5xwWqL/4FwoTkkroFziWpui5VhRHKpz21l2GTEfUBIfVYeLd8Q29OHWOONFT02+/7JNzn9AsTaWk0H3bOER9pt4FWvUQlzF9u2t0YofXZV+R/rRoOOPJ9XWFbKTVnZaU8AMTSapdQ9IYz0c87YquAVrfqcNU7vCEM60wkKAaTq+Z8s1MQSBDMgXFhWSs8U5cwwEetSnwE7UwcrYjXMIVlM3YARXRPt0DpX0k9FvTGz1BkbBDOSOTJgu5O7OP0IzEiT4yFpAXwWRsGCOV6Rjq7HhaT/RL8twL15ZnEtbHsLW1kLwOuzPI/9wySpSrpVSP+oTt4Rmz5nl0Lq3zvDCFfpP8c/BN3a7hmwQFc1jhGK7uIrCxJWMTFccOC1z30ZKAjP3zvxEeqNWdabg2BGRfpjrqJfWdPktl0HduyakHRrgvWWbe3tJwhF/2Qf4O82dmLYpdReezGYnsH9nY4HphRX0WbGus5yhgGuatT4BzWibOKeFtJXUhC4sdtxgQCszc19Z/MqHEEww5V0e1zU1Nc03wKlE6E3LQhwf5JYja8V5MyKSZZgZQNdv0XUaX8mVW3hZgvbJgvdCBYDKJEQS0Pj4LY2kB2WZxy43ybeYjNP9O35RzqDiEXGx033sBe+ghsUhdQPMqJd1uzHwGrIK501I8wFoS24hKT5/HeIvfn1L3pSSH29qOuD+0rbbwVX6i/wjRjJMrF72Mc2SanMeYb9gvH6ebkMqjF2l9wnsHLa2OXaEeemvnSEWYyYihHkIkupD24p/oFFkXummV2JlY23ZB2HK2mORUK7hdvGrCFEuS76V1YFd0ogpP4iG7A/y2u8tfVHoI1clE3mKNLSPONwFf3E9gGREt18H9hOaAXvfKUI1Tja6VcIqa9lm/QFFgknZm0WSi9OtKP0X1g7C3MaFNekzOj1neTMbIW7kt6V0K0ULXP6FYI5hxAt2Py7K+kb7EM/zflwFKBhghe2XrAWZx1DVekPtWEzF3bzjvDpNNvmwFpLDbTrBi5zCjWzK/i1LXl9pyXaQAhPF1HzSGvjRGftbRF1f69O3zGs6xIj8Oa+rXzkSv03xrOvra6gd1bq9HbOhuBStflRoEB2mjcYjiGukBovqNL3snE9bIiSc2ZXVzTezI2lZaRZFAY3mYLQinWcyJ/HKkpEXeaIkAl9PDF28mzkgt474QIo7KLjnX7FXPjgLfFZCclE0h22dLuEDqP0yjz9I8cjTZl0lf5e0cSAnwhKrtPPqKzYtLPNj9H0ErekBeslPIs5a6TwkCfUIo5ZEJQ+p8CVsSyrx3TKMXZDsF1YNFP/NXL3PmCi06U+KM2IF4rEcT8IJKasfRqFkwXXIYgv0U+9MdPE+FqiUtquCEVPYUK50v9qXyuERaBinFOdJ2Fy7RyToLzRDgFc1TimG30hoZ1LfX55ox0CuKyqD/JMutHOEclY6oAHHS6TkLjBMZ92ThN9L/30O2phudlmluNl1YCT2rm+svwRDzgW2arhZTQqCqlv4Bu6W/d3L3/UA4w9Qz9JnCBw4db9I9o9KyT9MiXMtfhiAMMCIWl+CyXs0la59DCpu5JuTnn256Na9DkBI2O7FAXDhpT/8TZ17hfbbVZ0Z0023pZ3XEMLl9mZwiMxbPFa5KMaQysrbXRGSsIDGCWGzuntm01DuAg2SFTDpvkw22NmW1eM1Ne1imBEUEWYEp3YV7B6Tu1bh1IRiDx884xhT9JS8HLYioSin7lKnxnVFzkMBf4RKG0+Vn1ix61hNNF9zSLrQ1t5fhQudK6NDcGn4cqGaJVKbU3YCfs42xlcZa6LAAFpToB7hs3+w3g/UVJoIsHI+DuUXtzK0IeKDdwl3E3Qdt8Cpu1OCeGmWlP1vbYANFSKa/0s3dYqTAgr0xy/EX9u7diq4IXOIADuz1iYZ0FXVdF+tv5Mtm675yU92WrWQ1HkNSkRtuQMAhLhPvBDSFqEHEG4SxHbGx0ithCpytAFwqMi6JboCIl1lqyqm219oTBywq0r9emJUNRtq+XCtJwPbhHmYUrTEqauO+P7aTO7JYJghlHoEOtU9/dKy/kz9U3ie4w03r/wnJC0+Nz7bCkGpjhOfBIsnfZGSHNoS/wDrS7XnEKM9zeOiSd0No621kJBWSheczJMAH0oU0bXtCVIxiOROoElaGED6iwm7vP0rlgVFqJs4dWuwdIGKoMqmrXxY1slfbbwjsLZHIungkbfps5j7GNH16nN92GsbOz3ONMdiYI2khqmEE3d3x17QZ7aKal9SH0Q26z9LLnlCSOlpNubf48iKGN5hn2bs54VKNCcfCmd4OEmssMk79A/sAFDKweLiI4BR+2UA0wUiKd3q4xPvhHatakIp2ie5Ryty7KMzQTGNYnkW4PlYvckAqYHwExvMpQK1kPclAtidZ6A60R+I9M3uFI7MB7GSNcop8aV2rYx583/46IyP2mI132HdXlg4qzMgZJgMRIFJlEL0bCpRiErA0mgdX1w3jHBb8L2n3WxAD0IDDBONou/0h9zBhlz1gbbIwsWClpVNT6F8k1YUVFNlTONRGRCR+nGsL4K9ANzCOREFB98JnIxOuk7zIxipaDYwQTcHIPjBgt7+REy1Z4/OfZ7XX+eraI7Lc2MUBR44g9Pqw7rhsUTS3tR8HloMXvVxp146hlPn7MUo+l5nfyhgstcwGBTsd8lncxW0eVTN9ohgGDnAmMjTyq4MYJs6Nt8wUFMcRBSP9wc4BAddcGKgqaHGo1QRCHp0JOYmgQEpbGVMXKE0s/l2pbmZq0+wYyRIxQMo4zGP/hNloMEYsbIIqzVI7SsmRVTADfz/HiUMW++J48hc4QOYKnf9X9ze+ibjyeLZjlxeoQugCgVtkpgL5sf1ohnuorS9W76GiFrSYzWpWfLP0JvhDiQW97W3C/19SPFsIeArSrdoUaX2iJaRnDKRWjl9Y9C6UH46c2hAjkqRrTC/wCY2ZhhDURfuQAAAABJRU5ErkJggg==">
 						<h4>Quick response time</h4>
 						<br>
 						<p>Responding to your invoice takes less than 5 minutes. </p>
@@ -259,70 +278,37 @@
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank"
-							action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-							method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address"
-								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-								required="" type="email">
-							<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant.html">Gas Plant</a></li>
+						<li><a href="distributors.html">Distributors</a></li>
+						<li><a href="end-users.html">Consumers</a></li>
+					</ul>
 				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions.html">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+
+
+
 			</div>
 			<div class="footer-bottom row align-items-center">
 				<p class="footer-text m-0 col-lg-6 col-md-12">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
-					<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
-					made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-						target="_blank">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
 				</p>
 				<div class="col-lg-6 col-md-6 social-link">
 					<div class="download-button d-flex flex-row justify-content-end">
