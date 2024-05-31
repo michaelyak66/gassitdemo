@@ -1,15 +1,16 @@
-
-
-Home page
 Header : Gassit: Your All-in-One App for All Your Fuel & Gas Needs
 
-Gassit is the trusted app that connects fuel station owners, gas plant owners, and resellers, with consumers or end-users. It provides a seamless experience for placing orders for pickup or delivery of LPG, and helps to manage the allocation/disbursement of fuel to vehicle drivers and other parties. 
-
+Gassit is the trusted app that connects fuel station owners, gas plant owners, and resellers, with consumers or end-users. It provides a seamless experience for placing orders for pickup or delivery of LPG and helps to manage the allocation/disbursement of fuel to vehicle drivers and other parties. 
 
 Unique Problems Gassit Solves
+Price and Usage Notification
+Gassit alerts users to change in fuel or gas prices from participating stations. This helps consumers plan resources adequately and reduces fraud from drivers. In addition, Gassit tracks the buying habits of customers and sends prompts to check the status of fuel or gas in the household or business.
 
-Access to BOI Loans for Gas Plant Owners: 
-Gassit supports gas plant owners in obtaining credit from the Bank of Industry (BOI). We assist with report preparation and applications, ensuring you have a streamlined process recognized by the BOI through the Gassit business cluster.
+Pay for Fuel/Diesel in Advance
+Customers get preferential treatment from their local filling stations when they pay in advance for fuel or diesel. This enables businesses to manage the dispensing of fuel to their fleets, and tracks usage from drivers.
+
+Access to Affordable Loans for Gas Plant Owners: 
+Gassit supports gas plant owners in processing credit from the Bank of Industry (BOI) and other Development Finance Institutions (DFIs). Our algorithm profiles your business based on transactions on the application, ensuring you meet all the criteria recognized by DFIs. 
 
 Read more(link to Gas plant owners page)
 
@@ -18,25 +19,25 @@ Registered distributors can access credit for gas purchases directly from their 
 
 Read more(link to Distributors page)
 
-Loyalty Points for End-Consumers:
-With Gassit, end-users can earn loyalty points with every gas purchase. Skip the lines by ordering through the app for pickup or home delivery, and wait less at Gassit stands.
+Loyalty Points for End-Users:
+With Gassit, end-users can earn loyalty points with every gas purchase. Skip the lines by ordering through the app for pickup or home delivery and wait less at Gassit stands.
 
 Read more(link to End-consumer’s page)
 
 Fast and Convenient Gas Delivery
 
 Get Gas Delivered to Your Doorstep in Under 1 Hour:
-Running out of gas is inconvenient, and waiting in line for a refill is worse. Place an order on Gassit from your mobile and enjoy the convenience of home delivery. It's the same gas without the hassle!
+Running out of gas is inconvenient, and waiting in line for a refill is worse. Place an order from your local gas station on Gassit from your mobile phone and enjoy the convenience of home delivery. It's the same gas without the hassle!
 
 Financial Support for Bulk Gas Purchases
-Distributors can access quick loans through Gassit when funds are low, ensuring they can stock up on gas for sales. We offer the best interest rates in the market and provide tools to maximize your supplies. 
+Distributors can access quick loans through Gassit when funds are low, ensuring they can stock up on gas to boost sales. We offer one of the best interest rates in the market and provide tools to maximize your supplies. 
 Read more to learn how Gassit can support your business. 
 
-What Users Are Saying
+What Businesses Are Saying
 
-“Hi, I’m  Dami CEO of the Selai Gas plant, I struggled with precise information on how much sales my Gas plant made.Since using the application my employees report 3x faster reconciliation of accounts and complaints like managing change have been brought down to 90% thanks to the OS retail app. “
+“Hi, I’m Dami CEO of the Selai Gas plant, I struggled with increasing and retaining my end-users until I was plugged in to Gassit. I have recorded 3x the number of end-users in such a short time, and more than doubled the number of deliveries we make daily
 
-
+Hi, I’m Amechi of Ameogo Pago Global Resources Ltd. Gassit as enabled me reach customers that would not come to my plant because of the bad roads. My end-user and distributors have
 
 
 Join the Growing List of Satisfied Users:
@@ -52,7 +53,6 @@ Button: Get Started
 
 
 
-
 Page 2 For Gas plant
 Are you a gas plant owner? 
 
@@ -62,11 +62,9 @@ Gain visibility into your sales, manage cash, and increase customer loyalty
 Gas plant owners trust OS retail to fix gas plant challenges like recording customer change without mixing it up with cash for sales.  Our users report 4x faster reconciliation of change issues enabling owners receive end-of-the-day reports..
 Button: Improve Sales now
 
-
 Sales tools that stop you Losing Profit
 
 Periodic reports: Enjoy reports from any period you choose either daily, weekly or monthly.  
-
 
 Cash handling: records customer’s change in customer profiles for later use.
 
@@ -99,13 +97,11 @@ Over 200 million naira transactions recorded |  300,000 customers serviced|  5+ 
 
 
 
-
 Hey I’m Dami, CEO at Selai Gas
 
 Hi, I’m  Dami CEO of the Selai Gas plant, I struggled with precise information on how much sales my Gas plant made.
 
  Since using the application my employees report 3x faster reconciliation of accounts and complaints like managing change have been brought down to 90% thanks to the OS retail app. 
-
 
 
 Trusted by plants owners like you
@@ -121,7 +117,6 @@ Quick Credit for your Gas payment.
 Enjoy access to credit to facilitate gas purchases in less than 5 minutes. Simply raise an invoice for Gas  when you need it and let Oyasync Credit do the rest!
 
 
-
 Why Distributors Love Oyasync Credit!
 
 Credit Access: Raise invoices in the app to have payment made to suppliers on your behalf.
@@ -133,7 +128,6 @@ Quick response time: Responding to your invoice takes less than 5 minutes.
 Bringing Credit to you!
 Oya Sync credit is powered by the vision to make credit available to business owners.
  We are changing the narrative of seeking credit and instead bringing credit to your smartphone.
-
 
 Buy on the App, Manage on the App 
 Buy Gas from your favorite gas stations and account for profit and loss easily,  generate account reports for loan applications elsewhere. 
@@ -147,7 +141,6 @@ Reports: Income and expense reports of all transactions on the app.
 
 Income statement: End-of-the-month income statement report delivered to you on the app for loan applications. 
 
-
 How to join:
 Enjoy our benefits  from any of our partner gas stations. Your favorite gas station not included?  Contact us for help in getting them on the Gassit list. 
 Button: Contact us
@@ -156,10 +149,9 @@ Button: Contact us
 
 
 
-
 End users:
 Enjoy Exclusive Benefits with Gassit
-Experience the Ultimate Convenience for Your Gas Needs: With Gassit, ordering and paying for gas  has never been easier. End-users enjoy convenience and speed with us from the moment they sign up.  
+•	Experience the Ultimate Convenience for Your Gas Needs: With Gassit, ordering and paying for gas  has never been easier. End-users enjoy convenience and speed with us from the moment they sign up.  
 
 What End -Users Enjoy
 Earn Loyalty Points
@@ -190,17 +182,14 @@ Button : Download button for apple and playstore.
 
 
 
-
 What Our Customers Are Saying
 
 "Gassit has completely transformed how I buy gas. I no longer worry about running out or waiting in long lines. The home delivery service is incredibly fast, and earning loyalty points with each purchase is a fantastic bonus. It's the ultimate convenience!"**  
 — Anuoluwa Oresanya., Satisfied Gassit Customer
 
 
-
 About  us  Page
 Use the Oyasync ecosystem page.
-
 
 
 
@@ -222,3 +211,6 @@ If you want to contact us for enquiries or complaints use the following buttons.
 Phone no: +234 700 300 4001
 Email: support@oyasynccredit
 Visit: Selai Gas station Abule egba, Ligali Ayorind e Victoria Island.
+
+
+
