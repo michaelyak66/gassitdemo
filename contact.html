@@ -51,25 +51,28 @@
 			color: rgb(0, 106, 255);
 			/* Hover color */
 		}
-		p{
+
+		p {
 			color: black;
 		}
-		.map-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            height: 0;
-            overflow: hidden;
-        }
 
-        .map-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
+		.map-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%;
+			/* 16:9 aspect ratio */
+			height: 0;
+			overflow: hidden;
+		}
+
+		.map-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
 	</style>
 </head>
 
@@ -141,17 +144,15 @@
 	<section class="contact-page-area ">
 		<div class="container">
 			<p class="col-lg-12">
-				<div class="map-container">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6866382566955!2d3.437477074327617!3d6.4342818241951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf51f5978b7b9%3A0x2ccd6508f01e4129!2sOyaSync%20%7CBusiness%20Management%20%7C%20Capacity%20Building!5e0!3m2!1sen!2sng!4v1716551885774!5m2!1sen!2sng"
-						allowfullscreen=""
-						loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade">
-					</iframe>
-				</div>
+			<div class="map-container">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6866382566955!2d3.437477074327617!3d6.4342818241951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf51f5978b7b9%3A0x2ccd6508f01e4129!2sOyaSync%20%7CBusiness%20Management%20%7C%20Capacity%20Building!5e0!3m2!1sen!2sng!4v1716551885774!5m2!1sen!2sng"
+					allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
 			</p>
 			<br><br>
-			<div class="row"> 
+			<div class="row">
 				<div class="col-lg-4 d-flex flex-column address-wrap">
 					<div class="single-contact-address d-flex flex-row">
 						<div class="icon">
@@ -159,7 +160,7 @@
 						</div>
 						<div class="contact-details">
 							<h5>Lagos, Nigeria</h5>
-							<p>4, Ligali Ayorinde Str Victoria Island Lagos. 
+							<p>4, Ligali Ayorinde Str Victoria Island Lagos.
 							</p>
 						</div>
 					</div>
@@ -178,40 +179,49 @@
 						</div>
 						<div class="contact-details">
 							<h5>
-								 Contact support@gassit.io for support or info@gassit.io for information requests
+								Support: support@gassit.io <br>
+								<p style="padding-top: 10px;">
+
+								Enquiry: info@gassit.io 
+								</p>
 							</h5>
 							<p>Send us your query anytime!</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+					<form class="form-area" id="contactForm" class="contact-form text-right">
 						<div class="row">
 							<div class="col-lg-6 form-group">
-								<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
-								 class="common-input mb-20 form-control" required="" type="text">
-
-								<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-								 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
-								 required="" type="email">
-
-								<input name="phone" placeholder="Enter your phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your phone number'"
-                                                                 class="common-input mb-20 form-control" required="" type="tel" pattern="\d{11}"> 
- 
-								<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'"
-								 class="common-input mb-20 form-control" required="" type="text">
+								<input name="name" id="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+									class="common-input mb-20 form-control" required="" type="text">
+				
+								<input name="email" id="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
+									required="" type="email">
+				
+								<input name="phone" id="phone" placeholder="Enter your phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your phone number'"
+									class="common-input mb-20 form-control" required="" type="tel" pattern="\d{11}"> 
+				
+								<input name="subject" id="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'"
+									class="common-input mb-20 form-control" required="" type="text">
 							</div>
 							<div class="col-lg-6 form-group">
-								<textarea class="common-textarea form-control" name="message" placeholder="Message" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Messege'" required=""></textarea>
+								<textarea required="" class="common-textarea form-control" name="message" id="message" placeholder="Message" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Message'" required=""></textarea>
 							</div>
-							<div class="col-lg-12 d-flex justify-content-between">
-								<div class="alert-msg" style="text-align: left;"></div>
-								<button class="primary-btn" style="float: right;">Send Message</button> <br> <br> <br> <br>
+							<div style="padding: 5px; margin-left: 15px;"  class="" id="responseMessage" class="alert-msg text-center"></div>
+
+							<div style="padding: 10px;" class="col-lg-12 d-flex justify-content-between">
+								<!-- <div id="responseMessage" class="alert-msg" style="text-align: left;"></div> -->
+								<button class="primary-btn" style="float: right;" type="submit">Send Message</button>
 							</div>
 						</div>
 					</form>
 				</div>
+
+				
+
 			</div>
 		</div>
 	</section>
@@ -283,13 +293,57 @@
 		</div>
 	</footer>
 	<!-- End Footer Area -->
-
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const form = document.getElementById('contactForm');
+		const responseMessage = document.getElementById('responseMessage');
+	
+		form.addEventListener('submit', function(event) {
+			event.preventDefault();
+	
+			const name = document.getElementById('name').value;
+			const email = document.getElementById('email').value;
+			const phone = document.getElementById('phone').value;
+			const subject = document.getElementById('subject').value;
+			const message = document.getElementById('message').value;
+	
+			const payload = {
+				name: name,
+				subject: subject,
+				message: message,
+				email: email,
+				phone: phone
+			};
+	
+			fetch('https://apps.oswallet.app/oyasyncwalletapi/api/WebsiteRequest/SaveEnquiry', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(payload)
+			})
+			.then(response => response.json())
+			.then(data => {
+				responseMessage.style.color = 'green';
+				responseMessage.textContent = 'Your message has been sent successfully.';
+				form.reset();
+			})
+			.catch((error) => {
+				responseMessage.style.color = 'red';
+				responseMessage.textContent = 'There was an error sending your message. Please try again later.';
+			});
+		});
+	});
+	
+</script>
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
 	<script src="js/tilt.jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 	<script src="js/easing.min.js"></script>
 	<script src="js/hoverIntent.js"></script>
 	<script src="js/superfish.min.js"></script>
