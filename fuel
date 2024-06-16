@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description"
+		content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing purchase support, and placing orders for home delivery in under an hour.">
+	<meta name="keywords" content="Gas, Gas plant, Cooking Gas, Gas Distributors, Gas Suppliers">
+	<meta name="author" content="Gassit">
+	<meta name="publisher" content="Oyasync">
+	<meta name="robots" content="index, follow">
+
+	<title>Gassit</title>
+
+	<link rel="icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+	<link rel="shortcut icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+
+	<meta property="og:title" content="Gassit">
+	<meta property="og:description"
+		content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing purchase support, and placing orders for home delivery in under an hour.">
+	<meta property="og:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+	<meta property="og:url" content="https://gassit.io">
+	<meta property="og:type" content="website">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Gassit">
+	<meta name="twitter:description"
+		content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing purchase support, and placing orders for home delivery in under an hour.">
+	<meta name="twitter:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+	<meta name="twitter:url" content="https://gassit.io">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/hexagons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .justify {
+            text-align: justify !important;
+        }
+
+        p {
+            color: black;
+        }
+
+        @media (max-width: 768px) {
+            .p {
+
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .pp {
+
+                display: none;
+            }
+        }
+    </style>
+    <style>
+        .chart-container {
+            width: 90%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .chart-bar {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            color: black;
+            font-weight: 400;
+        }
+
+        .chart-bar div {
+            text-align: left;
+            padding: 5px;
+        }
+
+        .bar {
+            height: 30px;
+            background-color: rgb(0, 115, 255);
+            text-align: center;
+            color: white;
+            transition: width 0.5s;
+        }
+
+        @media (min-width: 600px) {
+            .chart-bar {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .chart-bar div {
+                width: 50%;
+            }
+
+            .bar {
+                width: 50%;
+            }
+        }
+    </style>
+    <style>
+        /* CSS for centering the icons and headings */
+        .single-feature {
+            text-align: center;
+        }
+        .single-feature .title {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .single-feature .title h3 {
+            display: inline-block;
+            position: relative;
+            padding-left: 1.5em; /* Adjust as needed */
+        }
+        .single-feature .title h3:before {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2em; /* Adjust icon size as needed */
+        }
+    </style>
+    <style>
+        .feature-section {
+            padding: 80px 0;
+            background-color: #f0f3f6;
+        }
+        .feature-section .feature-item {
+            margin-bottom: 40px;
+        }
+        .feature-section .feature-item .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .feature-section .feature-item h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .feature-section .feature-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .feature-icon {
+            color:  rgb(0, 115, 255);
+        }
+    </style>
+
+</head>
+
+<body>
+	<!-- start header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<!-- <a href="/"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="/"><img width="70px" height="40px" src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png"
+							alt="" title="" /></a>
+
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a href="/">Home</a></li>
+						<li class="menu-active"><a href="about">Who we are</a></li>
+						<!-- <li><a href="pricing">Pricing</a></li> -->
+						<li class="menu-has-children"><a href="">Who we serve</a>
+							<ul>
+								<li><a href="gas-plant">Gas Plant</a></li>
+								<li><a href="distributors">Distributors</a></li>
+								<li><a href="end-users">Consumers</a></li>
+
+							</ul>
+
+						</li>
+
+						<li class="menu-has-children"><a href="">Products</a>
+							<ul>
+								<li><a href="diesel">Diesel</a></li>
+								<li><a href="fuel">Fuel</a></li>
+							</ul>
+						</li>
+						<li class="menu-active"><a href="pricing">Pricing</a></li>
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- end header Area -->
+
+    <!-- start banner Area -->
+    <section class="banner-area">
+        <div class="container">
+            <div style="padding-bottom: 10px !important;" class="row banner-content">
+                <div class="col-lg-12 d-flex align-items-center justify-content-between">
+                    <div class="left-part">
+                        <h1>
+                            Fuel
+                        </h1>
+                        <p class="justify">
+                            Implementing a fuel ordering platform for your fuel stations can significantly enhance your operational efficiency, customer service, and financial management. This technology-driven approach addresses many of the operational challenges fuel stations face, leading to improved reliability, transparency, and overall business performance.
+                        </p>
+
+                        <p class="justify">
+                            Gassit can address several issues plaguing your fuel stations by leveraging its technology to streamline your operations, enhance customer service, and improve efficiency.
+                            
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+    
+    <section class="feature-section">
+        <div class="container">
+            <div style="padding-bottom: 1px; margin-bottom: 40px !important;" class="section-title text-center">
+                <h2>Our Solution </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-gas-pump"></i>
+                        </div>
+                        <h4>Easy Pickup or Dispensing</h4>
+                        <p>Easy pickup or dispensing of fuel at participating filling stations, making the delivery process for dispatch riders easy.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h4>Home or Office Delivery</h4>
+                        <p>Customers can avoid their cars from being affected by fuel smells by requesting fuel delivery in approved containers to their homes or offices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Secure and Trusted</h4>
+                        <p>Customers can trust to have unadulterated fuel for consumption and have it delivered securely to their desired locations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-search-location"></i>
+                        </div>
+                        <h4>Check Fuel Stations and Prices</h4>
+                        <p>Customers can check available fuel stations and prices conveniently via the app. Delivery fees can be negotiated with customer service.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Direct Buying, No Middlemen</h4>
+                        <p>Customers buy directly from the company, eliminating price gouging and theft concerns by employees.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <h4>Supplier Management</h4>
+                        <p>Suppliers can track products sold by agents or fuel attendants and receive notifications for replenishment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- Start Footer Area -->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 single-footer-widget">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="pricing">Pricing</a></li>
+
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 single-footer-widget">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant">Gas Plant</a></li>
+						<li><a href="distributors">Distributors</a></li>
+						<li><a href="end-users">Consumers</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 single-footer-widget">
+					<h4>Products</h4>
+					<ul>
+						<li><a href="diesel">Diesel</a></li>
+						<li><a href="fuel">Fuel</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="social-icons d-flex justify-content-begin">
+						<a href="https://x.com/gassitng" class="social-icon"><i
+								style="font-size: 20px; padding: 10px; padding-left: 0;" class="fa fa-twitter"></i></a>
+						<a href="https://www.facebook.com/profile.php?id=61560179142834&mibextid=ZbWKwL"
+							class="social-icon"><i style="font-size: 20px; padding: 10px;"
+								class="fa fa-facebook"></i></a>
+						<a href="https://www.instagram.com/gassitapp?igsh=MW5vOGN3NHR1cGxoYQ==" class="social-icon"><i
+								style="font-size: 20px; padding: 10px;" class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/company/gassitng/" class="social-icon"><i
+								style="font-size: 20px; padding: 10px;" class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div style="margin-top: 0;" class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-6 col-md-12">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
+				</p>
+				<div class="col-lg-6 col-md-6 social-link">
+					<div class="download-button d-flex flex-row justify-content-end">
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-apple" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="https://apps.apple.com/ng/app/gassit/id6503717725">
+									<p>
+										<span>Available</span> <br>
+										on App Store
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="https://play.google.com/store/apps/details?id=com.oyasynchospitality.gassit&pcampaignid=web_share"
+									target="_blank">
+									<p>
+										<span>Available</span> <br>
+										on Play Store
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Area -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/hexagons.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

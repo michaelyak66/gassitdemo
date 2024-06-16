@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta name="keywords" content="Gas, Gas plant, Cooking Gas, Gas Distributors, Gas Suppliers">
+    <meta name="author" content="Your Name or Company Name">
+    <meta name="publisher" content="Oyasync">
+    <meta name="robots" content="index, follow">
+
+    <title>Gassit</title>
+
+    <link rel="icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+
+    <meta property="og:title" content="Gassit">
+    <meta property="og:description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta property="og:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gassit">
+    <meta name="twitter:description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta name="twitter:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <meta name="twitter:url" content="https://www.yourwebsite.com">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
+
+    <!--CSS============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/hexagons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        p,
+        u {
+            color: black;
+        }
+    </style>
+    <style>
+		#nav-menu-container .nav-menu li a:hover {
+			color: rgb(0, 106, 255);
+			/* Hover color */
+		}
+	</style>
+</head>
+
+<body>
+	<!-- start header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<!-- <a href="/"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="/"><img width="70px" height="40px"
+							src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png" alt="" title="" /></a>
+
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a href="/">Home</a></li>
+						<li class="menu-active"><a href="about">Who we are</a></li>
+						<!-- <li><a href="pricing">Pricing</a></li> -->
+						<li class="menu-has-children"><a href="">Who we serve</a>
+							<ul>
+								<li><a href="gas-plant">Gas Plant</a></li>
+								<li><a href="distributors">Distributors</a></li>
+								<li><a href="end-users">Consumers</a></li>
+
+							</ul>
+
+						</li>
+						<!-- <li class="menu-has-children"><a href="">Blog</a>
+							<ul>
+								<li><a href="blog-home">Blog Home</a></li>
+								<li><a href="blog-single">Blog Single</a></li>
+							</ul>
+						</li> -->
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- end header Area -->
+
+    <!-- start banner Area -->
+    <section class="home-banner-area">
+        <div class="container">
+            <div
+                style="padding-top: 100px; padding-bottom: 40px; font-family: Arial, Helvetica, sans-serif; color: black;">
+                <p>
+                    <strong>
+                        TERMS AND CONDITIONS – OYASYNC VALUECHAIN RESOURCE COMPANY (OSVRC)
+                    </strong>
+                </p>
+                <p>
+                    These terms and conditions apply to the supply of all products, goods,
+                    and/or services to the End-User’s and Distributors of OSVRC (the "<strong>Customer</strong>”)
+                    from Suppliers where there is no written contract in place between the
+                    Customer and the Supplier (the “<strong>Supplier</strong>”). These terms and
+                    conditions (the “<strong>Contract</strong>”) apply to the relationship
+                    between OSVRC, the Customer’s, and the Supplier, to the exclusion of any
+                    other terms that the Supplier seeks to impose or incorporate, or which are
+                    implied by trade, custom, practice or course of dealing.
+                </p>
+                <p>
+                    The Contract shall commence and the Supplier will be contractually bound
+                    upon acceptance of this terms and conditions.
+                </p>
+                <p>
+                    The end users (Supplier, Customer) will be engaged on OSVRC via mobile
+                    application solution called GASSIT provided by OYASYC. GASSIT will enable
+                    suppliers showcase their product offering to customers where customers can
+                    make purchase and payment.
+                </p>
+                <p>
+                    <strong>1.</strong> <strong>RECITALS</strong>
+                </p>
+                <p>
+                    These Terms and Conditions shall apply to the supply of goods and/or
+                    services as detailed in the Purchase Order.
+                </p>
+                <p>
+                    <strong>2.</strong> <strong>DEFINITIONS</strong>
+                </p>
+                <p>
+                    <strong>App/Platform/Software:</strong>the OSVRC application.
+                </p>
+                <p>
+                    <strong>Contract</strong>: this Terms and Conditions between OSVRC and the
+                    Supplier for the supply of Goods, Products, and/or Services in accordance
+                    with these terms and conditions and the Purchase Order.
+                </p>
+                <p>
+                    <strong>Deliverables</strong>: all documents, products and materials
+                    developed by the Supplier or its agents, contractors and employees as part
+                    of or in relation to the Services in any form.
+                </p>
+                <p>
+                    <strong>Goods</strong>/<strong>Products</strong>: the goods/products (or
+                    any part of them) set out in the Purchase Order.
+                </p>
+                <p>
+                    <strong>IP Rights</strong>: means all intellectual property rights,
+                    including, but not limited to, patents, trade secrets, trademarks, trade
+                    names, copyrights and other rights in works of authorship (including in
+                    computer software), moral and artists' rights, design rights, trade or
+                    business names, domain names, know-how, database rights and semi-conductor
+                    topography rights and whether any of the foregoing are registered or
+                    unregistered and all rights or forms of protection of a similar nature in
+                    any country.
+                </p>
+                <p>
+                    <strong>Purchase Order</strong>: the Customer’s order for the supply of
+                    Goods and/or Services, as set out in the Customer’s purchase order form.
+                </p>
+                <p>
+                    <strong>Services</strong>: the services, including any Deliverables, to be
+                    provided by the Supplier under the Contract.
+                </p>
+                <p>
+                    <strong>3.</strong><strong>DUTIES AND RESPONSIBILITIES OF THE SUPPLIER</strong>
+                    <strong></strong>
+                </p>
+                <p>
+                    The Supplier shall:
+                </p>
+                <p>
+                    3.1. provide the Products, Goods and/or Services to the Customer in
+                    accordance with the Purchase Order and these terms and conditions;
+                </p>
+                <p>
+                    3.2. meet any performance dates for the supply of Goods and/or Services
+                    specified in the Purchase Order or notified to the Supplier by the
+                    Customer;
+                </p>
+                <p>
+                    3.3. replace any Goods lost or damaged in transit at the Supplier's
+                    expense;
+                </p>
+                <p>
+                    3.4. ensure Goods and/or Services are free from defects in design,
+                    materials and workmanship and provide a 12-month warranty in respect of all
+                    Goods and/or Services supplied to the Customer;
+                </p>
+                <p>
+                    3.5. co-operate with OSVRC and/or the Customer in all matters relating to
+                    the supply of the Goods and/or Services, and comply with all instructions
+                    of the Customer;
+                </p>
+                <p>
+                    3.6. supply the Goods and/or Services with the best care, skill and
+                    diligence in accordance with best practice in the Supplier's industry,
+                    profession or trade;
+                </p>
+                <p>
+                    3.7. use personnel who are suitably skilled and experienced to perform
+                    tasks assigned to them, and in sufficient number to ensure that the
+                    Supplier's obligations are fulfilled in accordance with these terms and
+                    conditions;
+                </p>
+                <p>
+                    3.8. ensure the reliability of its personnel by vetting staff
+                    appropriately with regards to eligibility to work in Nigeria and for the
+                    handling or any sensitive or confidential information;
+                </p>
+                <p>
+                    3.9. ensure that the Goods and/or Services will conform with all
+                    descriptions and specifications set out in the Purchase Order, and that the
+                    Goods and/or Services shall be fit for any purpose expressly or impliedly
+                    made known to the Supplier by the Customer;
+                </p>
+                <p>
+                    3.10. obtain and at all times maintain all necessary
+                    licences and consents, and comply with all applicable laws and regulations;
+                </p>
+                <p>
+                    3.11. not do, or omit to do, anything which may cause the
+                    OSVRC to lose any licence, authority, consent or permission upon which it
+                    relies for the purposes of conducting its business, and the Supplier
+                    acknowledges that OSVRC and/or the Customer may rely or act on the Goods
+                    and/or Services;
+                </p>
+                <p>
+                    3.12. The Supplier undertakes to deliver the
+                    Products/furnish the Services in accordance with the quality standards and
+                    delivery deadlines as stated in the Contract or Purchase Order;
+                </p>
+                <p>
+                    3.13. The Supplier assumes full and exclusive
+                    responsibility for any occupational accident, etc., occurred to its
+                    employees and, in case of subcontracting, its subcontractors in relation to
+                    the provision of the Products and/or Services.
+                </p>
+                <p>
+                    3.14. The Supplier shall be responsible for the training,
+                    acts, omissions, negligence, etc., of its cashiers, employees, agents,
+                    contractors, subcontractors, etc.
+                </p>
+                <p>
+                    <strong>4.</strong> <strong>OSVRC REMEDIES</strong>
+                </p>
+                <p>
+                    4.1. If the Supplier fails to deliver the Goods and/or perform the
+                    Services in accordance with the Purchase Order and these Terms and
+                    Conditions, OVRC shall, without limiting its other rights or remedies, have
+                    one or more of the following rights:
+                </p>
+                <p>
+                    4.1.1. to terminate the Contract with immediate effect by giving
+                    written notice to the Supplier;
+                </p>
+                <p>
+                    4.1.2. to refuse to accept any subsequent performance of the Contract
+                    which the Supplier attempts to make;
+                </p>
+                <p>
+                    4.1.3. to recover from the Supplier any costs incurred by OSVRC in
+                    obtaining substitute Goods and/or Services from a third party;
+                </p>
+                <p>
+                    4.1.4. where the Customer has paid in advance for Goods, Products,
+                    and/or Services that have not been provided by the Supplier, to have such
+                    sums refunded;
+                </p>
+                <p>
+                    4.1.5. to claim damages for any additional costs, loss or expenses
+                    incurred by OSVRC which are in any way attributable to the Supplier's
+                    failure to meet applicable dates.
+                </p>
+                <p>
+                    4.2. The Customer's rights under this Contract are in addition to its
+                    rights and remedies implied by statute and equity.
+                </p>
+                <p>
+                    4.3. If the Products, Goods and/or Services do not so comply, the Customer
+                    is entitled at its option either to return the Goods at the risk of the
+                    Supplier and reject the Goods and/or Services and require the Supplier to
+                    re-perform the Contract, or accept the whole or part of the Goods and/or
+                    Services supplied by the Supplier but without prejudice to any rights of
+                    the Customer, and/or OSVRC to claim compensation or damages for loss or
+                    damage suffered as a result of such failure to comply.
+                </p>
+                <p>
+                    <strong>5.</strong> <strong>THE CUSTOMER’S OBLIGATIONS</strong>
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    The Customer shall:
+                </p>
+                <p>
+                    5.1. provide the Supplier with reasonable access at reasonable times to the
+                    relevant Customer premises for the purpose of fulfilling their obligations
+                    under this Contract; and
+                </p>
+                <p>
+                    5.2. provide such information that the Customer considers reasonable in
+                    order for the Supplier to meet their obligations under this Contract.
+                </p>
+                <p>
+                    <strong>6.</strong><strong>DELIVERY, PERFORMANCE OF SERVICES</strong>
+                    <strong></strong>
+                </p>
+                <p>
+                    6.1. The Supplier shall inspect Products prior to shipment to Customer.
+                </p>
+                <p>
+                    6.2. Supplier is responsible for all tests and inspections of the Products
+                    during receiving, manufacture, and Supplier’s final inspection.
+                </p>
+                <p>
+                    6.3. Material and/or process certificates may be required with shipments.
+                    The Supplier will be notified on the purchase order of these requirements.
+                    By providing the shipment the Supplier confirms that the Products comply
+                    with the purchase order requirements.
+                </p>
+                <p>
+                    6.4. Supplier shall strictly adhere to the shipment, delivery or
+                    completion schedules specified in the purchase order. In the event of any
+                    anticipated or actual delay Supplier shall promptly notify the Customer,
+                    stating the reasons for the delay and the actions being taken to overcome
+                    and minimize the delay, and provide the Customer with a recovery schedule.
+                </p>
+                <p>
+                    6.5. Unless agreed otherwise in the Contract, the Products or Services
+                    shall be delivered to the location defined in the Purchase Order.
+                </p>
+                <p>
+                    6.6. The Products shall be delivered, and Services shall be provided
+                    during business hours unless otherwise requested by the Customer.
+                </p>
+                <p>
+                    6.7. Upon Delivery, Supplier (or its appointed carrier) shall provide
+                    OSVRC and the Customer a delivery note and any other similar required
+                    documents. If the Customer has approved partial delivery, such delivery
+                    note shall also include the outstanding balance.
+                </p>
+                <p>
+                    6.8. Ownership of the Products is transferred to the Customer at Delivery.
+                </p>
+                <p>
+                    <strong>7.</strong><strong>RISK OF LOSS</strong> <strong></strong>
+                </p>
+                <p>
+                    Until the final receipt of the Goods
+                    <a name="_Hlk167101786">
+                        , Products, and/or Services
+                    </a>
+                    by the Customer, the Supplier shall bear any and all risk of loss and/or
+                    damage relating to the Goods, Products, and/or Services. The Supplier shall
+                    be fully responsible for the safe storage, warehousing, security, receipt,
+                    delivery, unloading, protection and insurance of the Goods, Products,
+                    and/or Services. Title to the products shall pass to the Customer upon
+                    actual receipt of the Goods, Products, and/or Services by the Customer.
+                </p>
+                <p>
+                    <strong>8.</strong><strong>ACCEPTANCE</strong> <strong></strong>
+                </p>
+                <p>
+                    8.1. Delivery of Products or provision of Services may not be deemed to be
+                    acceptance of such Products or Services by the Customer.
+                </p>
+                <p>
+                    8.2. The Customer shall have reasonable time (2 business day’s) to inspect
+                    or test the Products and/or Services and to report any defects to Supplier.
+                </p>
+                <p>
+                    8.3. If a defect in the Products and/or Services was not reasonably
+                    detectable during the inspection, the Customer shall have reasonable time
+                    (48 hours) to provide notice of such defect after it has become apparent
+                    and/or to reject the Products/Services.
+                </p>
+                <p>
+                    8.4. OSVRC may enforce any remedy defined in the Contract for any rejected
+                    Products or Services.
+                </p>
+                <p>
+                    <strong>9.</strong><strong>DELAY</strong> <strong></strong>
+                </p>
+                <p>
+                    9.1. If the Delivery of Products or the provision of Services does not
+                    comply with the agreed date(s), OSVRC and/or the Customer may:
+                </p>
+                <p>
+                    9.1.1. Terminate the Contract in whole or in part, or cancel the
+                    Purchase Order;
+                </p>
+                <p>
+                    9.1.2. Refuse any subsequent delivery of the Products or provision of
+                    the Services;
+                </p>
+                <p>
+                    9.1.3. Recover from Supplier any expenses reasonably incurred by OSVRC
+                    and/or the Customer in obtaining the Products and/or Services in
+                    substitution from another supplier
+                </p>
+                <p>
+                    9.1.4. Claim damages for any cost, refunds, loss, expenses and
+                    liquidated damages incurred by OSVRC which are attributable to Supplier’s
+                    delay; and
+                </p>
+                <p>
+                    9.1.5. Claim liquidated damages as agreed in the Contract, if
+                    applicable.
+                </p>
+                <p>
+                    <strong>10.</strong> <strong>CHARGES AND PAYMENTS</strong>
+                </p>
+                <p>
+                    10.1. The price for the Goods and/or Services shall be
+                    the price set out in the Purchase Order, and shall be the full and exclusive
+                    remuneration unless otherwise agreed in writing by the Customer. No extra
+                    charges shall be effective unless agreed in writing and signed by the
+                    Customer.
+                </p>
+                <p>
+                    10.2. In respect of Goods, the Supplier shall invoice the
+                    Customer immediately upon receipt of the Customer’s Purchase Order. In
+                    respect of Services, the Supplier shall invoice the Customer immediately
+                    upon receipt of the Customer’s Order. Each invoice shall include such
+                    supporting information required by the Customer to verify the accuracy of
+                    the invoice, including but not limited to the relevant purchase order
+                    number.
+                </p>
+                <p>
+                    10.3. The Customer uses the OSVRC system for the
+                    processing of its purchase orders and purchase invoices. The Supplier agrees
+                    to register on and submit invoices electronically via the OSVRC platform
+                    with respect to the Services. The Customer will provide the relevant
+                    information to enable the Supplier to register on the OSVRC network. The
+                    Supplier shall ensure all information on their OSVRC account (including
+                    bank account payment information and contact details) is kept accurate and
+                    up to date.
+                </p>
+                <p>
+                    10.4. Unless otherwise stated in the Purchase Order,
+                    prices are firm and includes all taxes, levies and other charges such as
+                    transport, delivery and packaging costs. Nevertheless, the Customer will
+                    benefit from any general price reduction in the Goods covered by the PO that
+                    the Supplier may make during the period between the conclusion of the
+                    contract and the delivery of the Goods.
+                </p>
+                <p>
+                    10.5. In consideration of the supply of Goods and/or
+                    Services by the Supplier, the Customer shall pay the invoiced amounts
+                    immediately upon receipt of a correctly rendered invoice submitted via the
+                    OSVRC portal.
+                </p>
+                <p>
+                    10.6. Supplier shall submit invoices in an auditable
+                    form, complying with applicable laws, generally accepted accounting
+                    principles and the specific OSVRC requirements, containing the following
+                    minimum information:
+                </p>
+                <ul>
+                    <li>
+                        Individual number of the invoice;
+                    </li>
+                    <li>
+                        Purchase Order number;
+                    </li>
+                    <li>
+                        Supplier name/ address;
+                    </li>
+                    <li>
+                        Supplier VAT/Tax Number;
+                    </li>
+                    <li>
+                        Quantity;
+                    </li>
+                    <li>
+                        Specification of Products and/or Services;
+                    </li>
+                    <li>
+                        Price (total amount invoiced);
+                    </li>
+                    <li>
+                        Currency;
+                    </li>
+                    <li>
+                        Tax or VAT amount;
+                    </li>
+                </ul>
+                <p>
+                    · Authorized Economic Operator and/or Approved Ex-porter
+                    Authorization number and/or other customs identification number, if
+                    applicable; and
+                </p>
+                <ul>
+                    <li>
+                        Payment terms and payment date.
+                    </li>
+                </ul>
+                <p>
+                    10.7. Invoices must be sent immediately upon receipt and
+                    confirmation via the portal, as well as in printed form to the billing
+                    address specified in the Purchase Order upon delivery.
+                </p>
+                <p>
+                    10.8. OSVRC reserves the right to set off, withhold, or
+                    refund payment, from the Supplier’s Wallet, for Products and/or Services not
+                    provided in accordance with the Purchase Order or Contract.
+                </p>
+                <p>
+                    10.9. All amounts payable by the Customer are exclusive
+                    of amounts in respect of valued added tax chargeable from time to time
+                    (VAT). Where any taxable supply for VAT purposes is made by the Supplier to
+                    the Customer, the Customer shall, on receipt of a valid VAT invoice from the
+                    Supplier, pay to the Supplier such additional amounts in respect of VAT as
+                    are chargeable on the supply of the Goods and/or Services at the same time
+                    as payment is due for the supply of the Goods and/or Services.
+                </p>
+                <p>
+                    10.10. OSVRC may carry out an anti-fraud check prior to any
+                    account set up and have the right to carry out a credit check at any time.
+                </p>
+                <p>
+                    10.11. OSVRC may at any time, without limiting any of its
+                    other rights or remedies, set off any liability of the Supplier to the
+                    Customer against any liability of the Customer to the Supplier, whether
+                    either liability is present or future, liquidated or unliquidated, and
+                    whether or not either liability arises under the Contract.
+                </p>
+                <p>
+                    10.12. The Supplier shall maintain complete and accurate
+                    records of the time spent and materials used in providing the Goods and/or
+                    Services, and the Supplier shall allow OSVRC to inspect such records at all
+                    reasonable times on request.
+                </p>
+                <p>
+                    <strong>11.</strong> <strong>INTELLECTUAL PROPERTY RIGHTS</strong>
+                </p>
+                <p>
+                    11.1. In respect of the Goods and any goods that are
+                    transferred to the Customer as part of the Services under this Contract,
+                    including without limitation the Deliverables or any part of them, the
+                    Supplier warrants that it has full clear and unencumbered title to all such
+                    items, and that at the date of delivery of such items to the Customer, it
+                    will have full and unrestricted rights to sell and transfer all such items
+                    to the Customer.
+                </p>
+                <p>
+                    11.2. The Supplier assigns to the OSVRC, with full title
+                    guarantee and free from all third party rights, all Intellectual Property
+                    Rights in the products of the Goods and/or Services, including for the
+                    avoidance of doubt the Deliverables.
+                </p>
+                <p>
+                    11.3. The Supplier shall obtain waivers of all moral
+                    rights in the products, including for the avoidance of doubt the
+                    Deliverables, of the Services to which any individual is now or may be at
+                    any future time entitled under the Copyright Act, Chapter C28 Laws of the
+                    Federation of Nigeria 2004; the Trademarks Act, Chapter T13 Laws of the
+                    Federation of Nigeria 2004; The Patents and Designs Act, and Chapter P2
+                    Laws of the Federation of Nigeria 2004, or any similar provisions of law in
+                    any jurisdiction.
+                </p>
+                <p>
+                    <strong>12.</strong><strong>INDEMNITY, INSURANCE AND LIABILITY</strong>
+                    <strong></strong>
+                </p>
+                <p>
+                    12.1. Without prejudice to applicable mandatory laws, the
+                    Supplier shall, without limitations, fully indemnified and hold harmless
+                    OSVRC in full against all liabilities, costs, expenses, damages and losses
+                    (whether direct or indirect), including any interest, fines, legal and
+                    other fees and expenses awarded against, or incurred, or paid by, OSVRC as
+                    a result of or in connection with:
+                </p>
+                <p>
+                    12.1.1. any claim made against OSVRC by a third party arising out of, or
+                    in connection with, the supply of the Goods, Products, and/or Services, to
+                    the extent that such claim arises out of the breach, negligent performance
+                    or failure or delay in performance of the Contract by the Supplier, its
+                    employees, agents, contractors, representatives, affiliates, subcontractors,
+                    etc.; and
+                </p>
+                <p>
+                    12.1.2. any claim made against OSVRC for actual or alleged infringement
+                    of a third party's IP Rights arising out of, or in connection with the use
+                    or supply of the Goods, Products, and/or Services.
+                </p>
+                <p>
+                    12.1.3. any claim made against the Customer for actual or alleged breach
+                    of the Data Protection Legislation.
+                </p>
+                <p>
+                    12.2. Supplier is responsible for the control and
+                    management of all of its employees, suppliers and/or subcontractors, and it
+                    is responsible for their acts or omissions as if they were the acts or
+                    omissions of the Supplier.
+                </p>
+                <p>
+                    12.3. The Supplier is solely and exclusively responsible
+                    for any claims and/or lawsuits filed by its employees and/or
+                    subcontractors, and shall, without any limitations, defend, indemnify and
+                    hold OSVRC harmless from and against any claim, proceeding, action, fine,
+                    loss, cost, damages and expenses arising out of or relating to any such
+                    claims and/or lawsuits, and any noncompliance with legislation,
+                    regulations, codes of practice, guidance and other requirements of any
+                    relevant government or governmental agency applicable to the Supplier, its
+                    employees or subcontractors. The Supplier undertakes to appear in court at
+                    its own cost if requested by OSVRC, acknowledging its status as sole and
+                    exclusive employer, and to provide OSVRC with all requested documentation
+                    and information necessary to ensure proper legal defence of OSVRC in court;
+                </p>
+                <p>
+                    12.4. During the term of the subscription, the Supplier
+                    shall maintain in force, with a reputable insurance company, professional
+                    indemnity insurance, product liability insurance and public liability
+                    insurance to cover the liabilities that may arise under or in connection
+                    with the Contract, and shall, on the Customer’s request, produce both the
+                    insurance certificate in respect of each insurance.
+                </p>
+                <p>
+                    12.5. OSVRC shall in no circumstances whatsoever be
+                    liable for any loss of profits or indirect or consequential loss howsoever
+                    arising from this Contract.
+                </p>
+                <p>
+                    12.6. OSVRC shall not be liable for any special,
+                    indirect, consequential or economic loss (including loss of profit,
+                    business, revenue, goodwill or anticipated savings) however caused and even
+                    if foreseeable. In addition, the OSVRC’s aggregate liability under this
+                    Contract is limited to the price under this Contract.
+                </p>
+                <p>
+                    <strong>13.</strong>
+                    <strong>
+                        CONFIDENTIALITY, DATA SECURITY, AND DATA PROTECTION
+                    </strong>
+                </p>
+                <p>
+                    13.1. Without disregarding the obligation contained in
+                    the present clause, OSVRC reserves the right to settle specific and more
+                    detailed Non-Disclosure Agreements (NDA), with the Supplier.
+                </p>
+                <p>
+                    13.2. Supplier shall comply with OSVRC’s Information
+                    Security Policy by respecting the following principles:
+                </p>
+                <p>
+                    · Confidentiality: by preserving authorized restrictions on access
+                    and disclosure, including means for protecting privacy and proprietary
+                    information; and
+                </p>
+                <p>
+                    · Integrity: by guarding against improper information modifications
+                    or distraction, including information non-repudiation and authenticity; and
+                </p>
+                <p>
+                    · Availability: by ensuring a timely and reliable access to and use
+                    of information; and
+                </p>
+                <p>
+                    · Legal and Regulatory: by respecting and complying with applicable
+                    laws and regulations.
+                </p>
+                <p>
+                    13.3. Supplier shall be assessed on the aforementioned
+                    OSVRC’s Information Security Policy and on Information Security aspects
+                    including, but not limited to those hereinafter.
+                </p>
+                <p>
+                    13.4. Supplier shall keep in strict confidence all OSVRC
+                    Data and any other information concerning OSVRC or its Affiliates’ business,
+                    their Products and/or their technologies which Supplier obtains in
+                    connection with the Products and/or Services to be provided (whether before
+                    or after acceptance of the Contract).
+                </p>
+                <p>
+                    13.5. Supplier shall restrict disclosure of such
+                    confidential material to such of its employees, agents or subcontractors or
+                    other third parties as need to know the same for the purpose of the
+                    provision of the Products and/or Services to OSVRC.
+                </p>
+                <p>
+                    13.6. Supplier shall ensure that such employees, agents,
+                    subcontractors or other third parties are subject to and comply with the
+                    same obligations of confidentiality as applicable to Supplier and will be
+                    liable for any unauthorized disclosures.
+                </p>
+                <p>
+                    13.7. Supplier shall apply appropriate safeguards,
+                    adequate to the type of OSVRC Data to be protected, against the unauthorised
+                    access or disclosure of OSVRC Data and protect such OSVRC Data in accordance
+                    with the generally accepted standards of protection in the related industry,
+                    or in the same manner and to the same degree that it protects its own
+                    confidential and proprietary information – whichever standard is higher.
+                </p>
+                <p>
+                    13.8. Supplier may disclose confidential information to
+                    Permitted Additional Recipients (which means Supplier’s authorised
+                    representatives, including auditors, counsels, consultants and advisors)
+                    provided always that
+                </p>
+                <p>
+                    · such information is disclosed on a strict need-to-know basis, and
+                </p>
+                <p>
+                    · such Permitted Additional Recipients sign with Supplier a
+                    confidentiality agreement with terms substantially similar hereto or, where
+                    applicable, are required to comply with codes of professional conduct
+                    ensuring confidentiality of such information.
+                </p>
+                <p>
+                    13.9. Supplier must not:
+                </p>
+                <p>
+                    · use OSVRC and/or Customer Data for any other purposes than for
+                    providing the Products and/or Services;
+                </p>
+                <p>
+                    · reproduce OSVRC’s and/or the Customer’s Data in whole or in part
+                    in any form except as may be required by the respective contractual
+                    documents; and
+                </p>
+                <p>
+                    · disclose OSVRC Data to any third party, without the prior written
+                    consent of OSVRC.
+                </p>
+                <p>
+                    13.10. Supplier shall install and update at its own cost
+                    required and adequate encryption methods, virus protection software and
+                    operating system security patches for all computers and software utilized in
+                    connection with providing the Products and/or Services and this shall also
+                    apply to OSVRC and Customer Data in transit.
+                </p>
+                <p>
+                    13.11. Supplier shall inform OSVRC without delay about
+                    suspicion of breaches of data security or other security incidents or
+                    irregularities regarding any OSVRC Data.
+                </p>
+                <p>
+                    13.12. Supplier agrees that OSVRC is allowed to provide any
+                    information received from Supplier to any Affiliates. Supplier shall obtain
+                    in advance all necessary approval or consent for OSVRC to provide such
+                    information to OSVRC’s Affiliates if such information is confidential for
+                    any reason or subject to applicable data protection or privacy laws and
+                    regulations.
+                </p>
+                <p>
+                    13.13. The Supplier (Receiving Party) shall keep in strict
+                    confidence all technical or commercial know how, specifications,
+                    inventions, processes or initiatives which are of a confidential nature and
+                    have been disclosed to the Receiving Party by OSVRC (Disclosing Party), its
+                    employees, affiliates, agents or subcontractors, and any other confidential
+                    information concerning the Disclosing Party's business or its products or
+                    its services which the Receiving Party may obtain.
+                </p>
+                <p>
+                    13.14. The Supplier shall further keep in strict confidence
+                    all information, details, purchases and orders, etc., of the Customers.
+                </p>
+                <p>
+                    13.15. The Receiving Party shall restrict disclosure of such
+                    confidential information to such of employees, affiliates, agents,
+                    representatives, contractors, sub-contractors, and other related
+                    third-parties as need to know it for the purpose of discharging the
+                    Receiving Party's obligations under the Contract, and shall ensure that
+                    such employees, agents or subcontractors are subject to obligations of
+                    confidentiality corresponding to those which bind the Receiving Party. This
+                    clause 13 shall survive termination of the Contract.
+                </p>
+                <p>
+                    <strong>14.</strong> <strong>REPRESENTATIONS AND WARRANTIES</strong>
+                </p>
+                <p>
+                    The Supplier represents and warrants that:
+                </p>
+                <p>
+                    14.1. the Products and/or Services comply with the
+                    Contract/Purchase Order, including but without limitation to Supplier’s
+                    responsibilities as defined in this terms and conditions;
+                </p>
+                <p>
+                    14.2. the Products are new and unused at the date of
+                    Delivery and remain free from defects during the warranty period;
+                </p>
+                <p>
+                    14.3. it has the proper skills and judgment and knowledge
+                    of best industry practices and procedures necessary to provide the Products
+                    and undertake the Services;
+                </p>
+                <p>
+                    14.4. the Products and Services supplied shall conform to
+                    the quality, quantity, frequency, number, nature, description, conditions
+                    and times for performance required by the Purchase Order;
+                </p>
+                <p>
+                    14.5. any Goods, Services, and/ or Products supplied or
+                    used by the Supplier in the performance of the Services shall be free from
+                    encumbrances at the time of the supply, and are fit for the intended
+                    purpose, free from any defect in materials and/or workmanship, are
+                    delivered in accordance with the Contract and/or Purchase Order, confirms
+                    with all applicable standards, and come with a warranty from the Supplier
+                    to the Customer and OSVRC in the same terms (or on terms no less favorable
+                    to the Company) as the warranties regarding the Goods, Services, and/or
+                    Products given by the manufacturer of the Goods and/or Products to the
+                    Supplier; and
+                </p>
+                <p>
+                    14.6. the Services shall be rendered professionally and
+                    courteously.
+                </p>
+                <p>
+                    <strong>15.</strong> <strong>TERMINATION</strong>
+                </p>
+                <p>
+                    15.1. OSVRC may terminate the Contract for convenience in
+                    whole or in part by giving Supplier 10 (10) calendar days written notice.
+                </p>
+                <p>
+                    15.2. OSVRC may terminate the Contract with immediate
+                    effect by notice in writing in the event that:
+                </p>
+                <ul>
+                    <li>
+                        Supplier is in breach of the Contract;
+                    </li>
+                </ul>
+                <p>
+                    · an interim order is applied for or made, or a voluntary
+                    arrangement approved, or a petition for a bankruptcy order is presented or
+                    a bankruptcy order is made against Supplier; or
+                </p>
+                <p>
+                    · any circumstances arise which entitle the court or a creditor to
+                    appoint a receiver or administrator or to make a winding-up order; or
+                </p>
+                <p>
+                    · other similar action is taken against or by Supplier by reason of
+                    its insolvency or in consequence of debt; or
+                </p>
+                <ul>
+                    <li>
+                        there is a change of control of Supplier.
+                    </li>
+                </ul>
+                <p>
+                    15.3. Upon termination, Supplier shall immediately and at
+                    its own expense return to OSVRC all respective OSVRC property (including any
+                    OSVRC Data, documentation, and transfer of Intellectual Property) then under
+                    Supplier’s control and provide OSVRC with the complete documentation about
+                    the delivered Products and/or Services.
+                </p>
+                <p>
+                    15.4. OSVRC is entitled to cancel an Order and/or to
+                    interrupt all collaboration with a Supplier if:
+                </p>
+                <p>
+                    · the quality of the Service does not meet OSVRC’s expectations;
+                </p>
+                <p>
+                    · the Supplier repeatedly fails to meet the delivery deadlines
+                    stated as agreed with the Customer;
+                </p>
+                <p>
+                    · the Supplier does not comply with the technical requirements
+                    specified by Customer for the orders in question;
+                </p>
+                <p>
+                    · a justified OSVRC, or Customer complaint(s) is made regarding an
+                    order accepted by the Supplier;
+                </p>
+                <p>
+                    · the Supplier does not fulfil its obligations towards regulatory
+                    authorities or does not do so correctly;
+                </p>
+                <p>
+                    · any breach or violations against confidentiality as mentioned
+                    above.
+                </p>
+                <p>
+                    15.5. Cancellations, irrespective of the legal basis on
+                    which they are made, must be notified in writing.
+                </p>
+                <p>
+                    16. <strong>THIRD-PARTY ACCOUNT INFORMATION</strong>
+                </p>
+                <p>
+                    By using any applicable banking or account linking service or any similarly
+                    applicable service on the OSVRC APP/Software, you authorize us and our
+                    agents to access third party APP’s designated by you or on your behalf, to
+                    retrieve information necessary for providing the service, and you appoint
+                    us, and our agents, as your agent for this limited purpose. Each time you
+                    enter your account login information, you are permitting us and our agents
+                    to process your request and use information submitted by you to accomplish
+                    the foregoing.
+                </p>
+                <p>
+                    17. <strong>VIOLATION OF THESE TERMS OF USE</strong>
+                </p>
+                <p>
+                    We may disclose any information we have about you (including your identity)
+                    if we determine that such disclosure is necessary in connection with any
+                    investigation or complaint (including, but not limited to, any governmental
+                    or law enforcement inquiry) regarding your use of the APP/Software, or to
+                    identify, contact or bring legal action against someone who may be causing
+                    injury to or interference with (either intentionally or unintentionally)
+                    our rights or property, or the rights or property of visitors to or users
+                    of the APP/Software, including our customers. We reserve the right at all
+                    times to disclose any information that we deem necessary to comply with any
+                    applicable law, regulation, legal process or governmental request,
+                    including in connection with assisting the government fight the funding of
+                    terrorism and money laundering activities and complying with any and all
+                    applicable laws, rules or regulations in relation thereto.
+                </p>
+                <p>
+                    We also may disclose your information when we determine that applicable law
+                    requires or permits such disclosure, including exchanging information with
+                    other companies and organizations for fraud protection purposes.
+                </p>
+                <p>
+                    You acknowledge and agree that we may preserve any transmittal or
+                    communication by you with us through the APP or any service offered on or
+                    through the APP, and may also disclose such data if required to do so by
+                    law or if we determine that such preservation or disclosure is reasonably
+                    necessary:
+                </p>
+                <ul>
+                    <li>
+                        to comply with legal process;
+                    </li>
+                    <li>
+                        to enforce these Terms of Use;
+                    </li>
+                </ul>
+                <p>
+                    · to respond to claims that any such data violates the rights of
+                    others; or
+                </p>
+                <p>
+                    · to protect our rights, property or personal safety of our
+                    employees, users of or visitors to the APP/Software, or the public.
+                </p>
+                <p>
+                    You agree that we may, at our sole discretion, at any time and without
+                    prior notice, terminate your access to OSVRC, and/or block your future
+                    access to the APP/Software, if we determine that you have violated these
+                    Terms of Use or other agreements or guidelines which may be associated with
+                    your use of the OSVRC Platform or for other cause, which includes (but is
+                    not limited to)
+                </p>
+                <p>
+                    · requests by law enforcement or other government agencies;
+                </p>
+                <p>
+                    · a request by you (self-initiated account deletions);
+                </p>
+                <p>
+                    · discontinuance or material modification of the APP/Software or
+                    any service offered on or through the APP, or unexpected technical issues
+                    or problems.
+                </p>
+                <p>
+                    <strong>18.</strong> <strong>DISPUTE RESOLUTION AGREEMENT</strong>
+                </p>
+                <p>
+                    To the extent permitted by applicable law, any claim or dispute related to
+                    these Terms of Use or your use of OSVRC or duties contemplated under these
+                    Terms of Use, including the validity of this arbitration clause (the
+                    “Claim”), shall be settled by binding arbitration administered by the Lagos
+                    Multi-Door Court in accordance with the Lagos Multi-Door Court Rules. The
+                    arbitration shall be governed by the Lagos State Arbitration Law 2009 to
+                    the exclusion of any provision of state law inconsistent therewith or which
+                    would produce a different result. A single, neutral arbitrator shall
+                    determine the Claim of the parties and render a final award in accordance
+                    with the substantive law applicable. Strict confidentiality shall govern
+                    any arbitration proceedings, any and all information submitted to the
+                    arbitrator by the parties and to the decision or award entered by the
+                    arbitrator. Any court having jurisdiction may enter judgment upon the award
+                    rendered by the arbitrator. The terms hereof shall not limit any obligation
+                    of a party to defend, indemnify or hold harmless another party against
+                    court proceedings or other claims, losses, damages, or expenses.
+                </p>
+                <p>
+                    The procedures specified in this Section shall be the sole and exclusive
+                    procedures for the resolution of disputes between the parties arising out
+                    of or relating to your use of the APP; provided, however, that a party may
+                    request temporary remedies in a court of law having competent jurisdiction
+                    to maintain the status quo or to protect goods or property until the
+                    arbitration has initiated and the selected arbitrator has had the
+                    opportunity to resolve the request for temporary relief.
+                </p>
+                <p>
+                    Each party is required to continue to perform its obligations under these
+                    Terms of Use pending final resolution of any dispute arising out of or
+                    relating to these Terms of Use and your use of the APP, unless to do so
+                    would be impossible or impracticable under the circumstances.
+                    <strong>
+                    </strong>
+                </p>
+                <p>
+                    <strong>19.</strong><strong>NON-SOLICITATION</strong> <strong></strong>
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    During the duration of the Contract in which the Supplier renders services
+                    to and via OSVRC, and for a period of two (2) years after termination or
+                    expiration of this Contract, the Supplier shall not solicit, attempt to
+                    recruit or recruit any employee, consultant, client or customer of OSVRC
+                    for itself or for other companies or individuals.
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    <strong>20.</strong><strong>SURVIVAL</strong> <strong></strong>
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    Provisions of the Contract which either are expressed to survive its
+                    termination or from their nature or context it is contemplated that they
+                    are to survive such termination will remain in full force and effect
+                    notwithstanding such termination. The obligations set forth in Clauses:
+                </p>
+                <ul>
+                    <li>
+                        4 (OSVRC’s Remedies)
+                    </li>
+                    <li>
+                        14 (Warranty and Representations),
+                    </li>
+                    <li>
+                        11 (Intellectual Property),
+                    </li>
+                </ul>
+                <p>
+                    · 13 (Confidentiality, Data Security, Data Protection), and
+                </p>
+                <ul>
+                    <li>
+                        12 (Liability, Insurance, and Indemnity)
+                    </li>
+                </ul>
+                <p>
+                    Exists for an indefinite period of time and survives expiration or
+                    termination of the Contract for any reason.
+                </p>
+                <p>
+                    <strong>21.</strong> <strong>GENERAL</strong>
+                </p>
+                <p>
+                    Review these Terms of Service ("Contract") thoroughly. This Contract is a
+                    legal agreement between the Supplier and OSVRC. By accepting electronically
+                    (for example, clicking “I Agree”), installing, accessing or using the
+                    Services, User agrees to these terms. If the User does not agree to this
+                    Agreement, then he/she may not use the Services.
+                </p>
+                <p>
+                    <strong>22.</strong><strong>ENTIRETY</strong> <strong></strong>
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    The Contract constitutes the entire agreement between the Parties and
+                    replaces any prior agreement between them with regard to its subject,
+                    unless otherwise agreed in writing by the parties.
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    <strong>23.</strong><strong>RELATIONSHIP OF PARTIES</strong>
+                    <strong>
+                    </strong>
+                </p>
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    The relationship of the Parties is that of independent parties dealing at
+                    arm’s length and nothing in the Contract may be construed to constitute
+                    Supplier as an agent or employee of OSVRC or so as to have any kind of
+                    partnership with OSVRC, and Supplier must not represent itself as or act on
+                    behalf of OSVRC.
+                </p>
+                <p>
+                    The Contract does not imply any employment relationship between OSVRC and
+                    Supplier, or between OSVRC and Supplier’s employees assigned to the
+                    execution of the Contract. OSVRC remains free of any responsibility or
+                    liability for labour, social security or taxes with respect to Supplier and
+                    its employees assigned to the execution of the Contract
+                </p>
+                <p>
+                    <strong>24.</strong>
+                    <strong>
+                        MODIFICATION OF TERMS &amp; CONDITIONS
+                    </strong>
+                </p>
+                <p>
+                    These terms may be updated from time to time in the future. The User should
+                    agree to review our Terms and Conditions regularly by visiting this page.
+                    Continued access to or use of the service will mean that the User agrees to
+                    the change.
+                </p>
+                <p>
+                    <strong>CASHIER</strong>
+                </p>
+                <p>
+                    1. The Cashier is an employee and/or representatives of the Supplier
+                    and acts on the Suppliers authorization.
+                </p>
+                <p>
+                    2. The Cashier has the requisite authority, training, and skills
+                    necessary to use OSVRC;
+                </p>
+                <p>
+                    3. The Cashier hereby agrees to be bound by the provisions of this
+                    Contract, as stated above.
+                </p>
+                <p>
+                    4. The Cashier agrees not to use the OSVRC software/App in or for any
+                    illegal, fraudulent, unauthorized or improper manner or purpose and agree
+                    that the App will only be used in a manner that complies with all
+                    applicable laws, rules and regulations including all applicable state,
+                    federal and international internet, data, telecommunications, telemarketing,
+                    "spam", and import/export laws and regulations.
+                </p>
+                <p>
+                    5. Without limitation, you agree that you will not violate the
+                    privacy rights of third parties, any third party's intellectual property
+                    rights, rights of publicity, privacy, or confidentiality, or the rights or
+                    legal obligations of any service provider or any of its clients or
+                    subscribers, disseminate material or data that is illegal, or of such
+                    nature that is harassing. harmful, coercive, defamatory, libelous, abusive,
+                    threatening,
+                </p>
+                <p>
+                    6. Further to the above, you agree that you will not attempt to
+                    access any software or services for which your use has not been authorized;
+                    or use or attempt to use a third party's account, or interfere in any
+                    manner with the provision of the Services or the Software, the security of
+                    the App or other customers that use the service; or otherwise abuse the
+                    service or the App.
+                </p>
+                <p>
+                    7. You shall promptly process order, send invoices, update prices,
+                    quantity, and availability, of products, and services on the application.
+                </p>
+            </div>
+    </section>
+    <!-- End banner Area -->
+
+
+	<!-- Start Footer Area -->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant">Gas Plant</a></li>
+						<li><a href="distributors">Distributors</a></li>
+						<li><a href="end-users">Consumers</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+
+
+
+			</div>
+			<div class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-6 col-md-12">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
+				</p>
+				<div class="col-lg-6 col-md-6 social-link">
+					<div class="download-button d-flex flex-row justify-content-end">
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-apple" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on App Store
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on Play Store
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Area -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/hexagons.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+                @media print 
+    {
+        @page {
+     margin: 0;
+  }
+
+        body {
+            margin: 0;
+    font-size:45px;
+    width: 100%;
+  }
+  .receipt-header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+
+  #printableArea {
+    visibility: visible;
+  }
+  #nonPrintableArea {
+    visibility:hidden;
+  }
+}
+        .receipt-container {
+           
+            margin: 0 auto;
+            padding: 3px;
+            border: 0px solid #e0e0e0;
+            border-radius: 0px;
+            background-color: #fff;
+        }
+        .receipt-header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        .receipt-header h1 {
+            margin: 0;
+            font-size: 50px;
+        }
+        .order-summary, .payment-details {
+            margin-bottom: 25px;
+        }
+        .order-summary h5, .payment-details h5 {
+            margin-bottom: 15px;
+            font-size: 50px;
+        }
+        .total-amount {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="margin-top: 40px;" class="container">
+        <div class="receipt-container printableArea" id="printableArea">
+            <div class="receipt-header">
+                <h1 style="padding: 5px;"><img style="width: 320px;" src="https://gassit.io/img/GASSIT_LOGOFILES/PNG/LIN_GASSIT_BASE.png" /></h1><br/>
+                <h1 class="total-amount">₦ 0.00</h1><br/>
+            </div>
+            <div class="order-summary">
+                <h5>Order Summary</h5>
+            </div>
+            <div class="payment-details">
+                <h5>Payment Details</h5>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="nonPrintableArea" onclick="printDiv('printableArea')" class="btn btn-primary">Print Receipt</button>
+        </div>
+    </div>
+</body>
+<script>
+        // Function to get the value of a URL parameter
+        function getURLParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+    
+        // Function to decode a Base64 encoded string
+        function decodeBase64(base64String) {
+            try {
+                return atob(base64String);
+            } catch (e) {
+                console.error("Invalid data");
+                return null;
+            }
+        }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const base64RefValue = getURLParameter('ref');
+        if (base64RefValue) {
+            const decodedRefValue = decodeBase64(base64RefValue);
+            //console.log(decodedRefValue)
+            if (decodedRefValue) {
+                
+               // document.getElementById('reference-number').textContent = decodedRefValue;
+               //const data = decodedRefValue
+               const data = JSON.parse(decodedRefValue);
+
+               data.vat = data.vat??0;
+               data.discount = data.discount??0;
+               data.serviceFee = data.serviceFee??0;
+               data.subTotal = data.subTotal??0;
+
+
+       
+               // Update total amount
+               document.querySelector('.total-amount').textContent = '₦ ' + data.total.toFixed(2);
+               // Update order number, payment date, payment time, beneficiary, and payment status
+               document.querySelector('.payment-details').innerHTML += `
+                   <div class="d-flex justify-content-between">
+                       <span>Order Number</span>
+                       <span>${data.orderNumber}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>Payment Date</span>
+                       <span>${data.paymentDate} ${data.paymentTime}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>Status</span>
+                       <span class=""><b>${data.paymentStatus}</b></span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>Merchant</span>
+                       <span>${data.Merchant}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                    <span>Phone Number</span>
+                       <span>${data.phoneNumber}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>${data.address}</span>
+                   </div>
+               `;
+               // Update order summary
+               const orderSummary = document.querySelector('.order-summary');
+               data.orderItems.forEach(item => {
+                   orderSummary.innerHTML += `
+                        
+                       <div class="d-flex justify-content-between">
+                           <span>${item.title} (x${item.quantity})</span>
+                           <span>₦${(item.totalPrice.toFixed(2))}</span>
+                       </div>
+                   `;
+               });
+
+               // Update subtotal, service fee, discount, and VAT
+               orderSummary.innerHTML += `<hr/>
+                   <div class="d-flex justify-content-between">
+                       <span>Subtotal</span>
+                       <span>₦${data.subTotal.toFixed(2)}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>Discount</span>
+                       <span>₦${data.discount.toFixed(2)}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>Service fee</span>
+                       <span>₦${data.serviceFee.toFixed(2)}</span>
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <span>VAT</span>
+                       <span>₦${(data.vat.toFixed(2))}</span>
+                   </div>
+               `;
+
+               printDiv('printableArea');
+            }
+        }
+    });
+
+       
+    function printDiv(divId) {
+     var printContents = document.getElementById(divId).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+     window.print();
+
+document.body.innerHTML = originalContents;
+
+}
+
+
+
+    
+</script>
+</html>

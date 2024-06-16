@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta name="keywords" content="Gas, Gas plant, Cooking Gas, Gas Distributors, Gas Suppliers">
+    <meta name="author" content="Your Name or Company Name">
+    <meta name="publisher" content="Oyasync">
+    <meta name="robots" content="index, follow">
+
+    <title>Gassit</title>
+
+    <link rel="icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+
+    <meta property="og:title" content="Gassit">
+    <meta property="og:description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta property="og:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gassit">
+    <meta name="twitter:description"
+        content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing loans, and placing orders for home delivery in under an hour.">
+    <meta name="twitter:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
+    <meta name="twitter:url" content="https://www.yourwebsite.com">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
+
+    <!--CSS============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/hexagons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        p,
+        u {
+            color: black;
+        }
+    </style>
+    <style>
+		#nav-menu-container .nav-menu li a:hover {
+			color: rgb(0, 106, 255);
+			/* Hover color */
+		}
+	</style>
+</head>
+
+<body>
+	<!-- start header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<!-- <a href="/"><img src="img/logo.png" alt="" title="" /></a> -->
+					<a href="/"><img width="70px" height="40px"
+							src="img/GASSIT_LOGOFILES/PNG/STA_GASSIT_MONO.png" alt="" title="" /></a>
+
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a href="/">Home</a></li>
+						<li class="menu-active"><a href="about">Who we are</a></li>
+						<!-- <li><a href="pricing">Pricing</a></li> -->
+						<li class="menu-has-children"><a href="">Who we serve</a>
+							<ul>
+								<li><a href="gas-plant">Gas Plant</a></li>
+								<li><a href="distributors">Distributors</a></li>
+								<li><a href="end-users">Consumers</a></li>
+
+							</ul>
+
+						</li>
+						<!-- <li class="menu-has-children"><a href="">Blog</a>
+							<ul>
+								<li><a href="blog-home">Blog Home</a></li>
+								<li><a href="blog-single">Blog Single</a></li>
+							</ul>
+						</li> -->
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- end header Area -->
+
+    <!-- start banner Area -->
+    <section class="home-banner-area">
+        <div class="container">
+            <div style="padding-top: 100px; padding-bottom: 40px; font-family: Arial, Helvetica, sans-serif; color: black;">
+                <p>
+                    <strong></strong>
+                </p>
+                <p>
+                    <strong>Steps to delete account</strong>
+                </p>
+                <p>
+                    The following steps should be taking to delete your profile account with us
+
+                  <table>
+                    <tr>
+                        <td><b>Step 1: </b></td>
+                        <td>Send use an email to support@gassit.io requesting that you want your profile account deleted</td>
+                    </tr>
+                    <tr>
+                        <td><b>Step 2: </b></td>
+                        <td>Our support team will contact you requesting for some information to confirm you are the owner of the profile account</td>
+                    </tr>
+                    <tr>
+                        <td><b>Step 3: </b></td>
+                        <td>Once information is confirmed, your account will be disabled and deleted within 24 hours</td>
+                    </tr>
+                  </table>
+                </p>
+<br/><br/>
+                <p>
+                    <strong>The information we delete and what we keep</strong>
+                </p>
+                <p>
+                    The following steps should be taking to delete your profile account with us
+
+                  <table>
+                    <tr>
+                        <td><b>Login Data</b></td>
+                        <td>We delete all login data such as username and password</td>
+                    </tr>
+                    <tr>
+                        <td><b>Personal Data</b></td>
+                        <td>We delete all information you submitted during signup and during the time of application usage</td>
+                    </tr>
+                    <tr>
+                        <td><b>Logs</b></td>
+                        <td>We delete activities log that can be traced to you</td>
+                    </tr>
+                  </table>
+                </p>
+            </div>
+            </div>
+    </section>
+    <!-- End banner Area -->
+
+
+	<!-- Start Footer Area -->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="gas-plant">Gas Plant</a></li>
+						<li><a href="distributors">Distributors</a></li>
+						<li><a href="end-users">Consumers</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Legal</h4>
+					<ul>
+						<li><a href="privacy-policy">Privacy Policy</a></li>
+						<li><a href="terms-and-conditions">App Usage Terms and Conditions</a></li>
+					</ul>
+				</div>
+
+
+
+			</div>
+			<div class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-6 col-md-12">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved Gassit
+				</p>
+				<div class="col-lg-6 col-md-6 social-link">
+					<div class="download-button d-flex flex-row justify-content-end">
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-apple" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on App Store
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on Play Store
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Area -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/hexagons.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
