@@ -26,7 +26,7 @@
     <meta property="og:description"
         content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing purchase support, and placing orders for home delivery in under an hour.">
     <meta property="og:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
-    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:url" content="https://gassit.io">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
@@ -34,7 +34,7 @@
     <meta name="twitter:description"
         content="Gassit is the trusted app that connects gas plant owners, distributors, and consumers, providing a seamless experience for managing inventory, accessing purchase support, and placing orders for home delivery in under an hour.">
     <meta name="twitter:image" content="./img/GASSIT_LOGOFILES/PNG/ICO_GASSIT_ALT.png">
-    <meta name="twitter:url" content="https://www.yourwebsite.com">
+    <meta name="twitter:url" content="https://gassit.io">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
     <!--CSS============================================= -->
@@ -60,6 +60,11 @@
             text-align: justify !important;
         }
     </style>
+    <style>
+		.menu-has-children{
+			color: #fff;
+		}
+	</style>
 
 </head>
 
@@ -79,7 +84,7 @@
                         <li><a href="/">Home</a></li>
                         <li class="menu-active"><a href="about">Who we are</a></li>
                         <!-- <li><a href="pricing">Pricing</a></li> -->
-                        <li class="menu-has-children"><a href="">Who we serve</a>
+                        <li class="menu-has-children"><a >Who we serve</a>
                             <ul>
                                 <li><a href="gas-plant">Gas Plant</a></li>
                                 <li><a href="distributors">Distributors</a></li>
@@ -89,7 +94,7 @@
 
                         </li>
 
-                        <li class="menu-has-children"><a href="">Products</a>
+                        <li class="menu-has-children"><a >Products</a>
                             <ul>
                                 <li><a href="diesel">Diesel</a></li>
                                 <li><a href="fuel">Fuel</a></li>
